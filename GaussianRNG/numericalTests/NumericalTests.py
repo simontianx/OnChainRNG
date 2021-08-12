@@ -2,14 +2,17 @@
 """
 Created on Wed Aug 11 15:16:21 2021
 
-@author: Simon
+@author: Simon Tian
 """
 
 #%%
-
 from web3 import Web3
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
+import string
+
+asciichars = string.ascii_letters + string.punctuation + string.digits;
 
 #%%
 def keccak256(val):
@@ -40,7 +43,7 @@ def pearson_r(x, y):
     """Compute Pearson correlation coefficient between two arrays."""
     # Compute correlation matrix: corr_mat
     corr_mat=np.corrcoef(x, y)
- 
+
     # Return entry [0,1]
     return corr_mat[0, 1]
 
@@ -56,16 +59,15 @@ def acf(series):
     def r(h):
         acf_lag = ((data[:n - h] - avg) * (data[h:] - avg)).sum() / n / c0
         return round(acf_lag, 3)
-    
+
     # Avoiding lag 0 calculation
     x = np.arange(1, 31)
     acf_coeffs = list(map(r, x))
     return acf_coeffs
 
-
-def drawGraph1(df, figureId):
+def drawGraph(df, figId):
     c = 3.725
-    plt.figure(figureId);
+    plt.figure(figId);
     line_mid, = plt.plot(df[:,0], label='Avg')
     plt.xlabel("Digit Index")
     plt.ylabel("Probability")
@@ -80,7 +82,58 @@ def drawGraph1(df, figureId):
         loc='lower center',
         ncol=3)
 
+def getStr(m):
+    n = np.random.choice(np.arange(2, m));
+    sentence = np.random.choice(np.array(list(asciichars)), n);
+    return "".join(sentence)
 
 #%%
+"""
+Experiment 1: numerical values
+1.1: 0, 1, ..., 10000
+1.2: 2^128 + (0, 1, ..., 10000)
+Experiment 2: string + numerical values
+2.1: "Transaction Number: " + 0, 1, ..., 10000
+2.2: "Transaction Number: " + 0, 1, ..., 10000 + 2^128
+Experiment 3: Strings
+3.1: any permutation and combination of up to 7 ASCII characters
+3.2: any permutation and combination of up to 32 ASCII characters
+"""
 
+#%%
+## Experiment 1
+n = 10000
+digits_exp1_1 = np.array([helper(x) for x in np.arange(n)]);
+rslt_exp1_1 = np.array([(np.mean(digits_exp1_1[:,i]), np.std(digits_exp1_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp1_1, 1)
 
+#%%
+digits_exp1_2 = np.array([helper(x + 2 ** 128) for x in np.arange(n)]);
+rslt_exp1_2 = np.array([(np.mean(digits_exp1_2[:,i]), np.std(digits_exp1_2[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp1_2, 2)
+
+#%%
+## Experiment 2
+## 2.1
+n = 10000
+digits_exp2_1 = np.array([helper("Transaction Number: " + str(x)) for x in np.arange(n)]);
+rslt_exp2_1 = np.array([(np.mean(digits_exp2_1[:,i]), np.std(digits_exp2_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp2_1, 3)
+
+## 2.2
+digits_exp2_2 = np.array([helper("Transaction Number: " + str(x + 2 ** 128)) for x in np.arange(n)]);
+rslt_exp2_2 = np.array([(np.mean(digits_exp2_2[:,i]), np.std(digits_exp2_2[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp2_2, 4)
+
+#%%
+## Experiment 3
+## 3.1
+n = 10000
+digits_exp3_1 = np.array([helper(getStr(7)) for x in np.arange(n)]);
+rslt_exp3_1 = np.array([(np.mean(digits_exp3_1[:,i]), np.std(digits_exp3_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp3_1, 5)
+
+## 3.2
+digits_exp3_2 = np.array([helper(getStr(32)) for x in np.arange(n)]);
+rslt_exp3_2 = np.array([(np.mean(digits_exp3_2[:,i]), np.std(digits_exp3_2[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp3_2, 6)
