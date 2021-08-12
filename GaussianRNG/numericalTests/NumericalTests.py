@@ -34,15 +34,15 @@ def split(binaryArray):
 
 def helper(x):
     """Given an input value x, output an array of binary digits"""
-    tmp = keccak256(x);
-    tmp2 = hashToBinary(tmp);
-    tmp3 = split(tmp2);
-    return tmp3;
+    hash = keccak256(x);
+    binary = hashToBinary(tmp);
+    arr = split(tmp2);
+    return arr;
 
 def pearson_r(x, y):
     """Compute Pearson correlation coefficient between two arrays."""
     # Compute correlation matrix: corr_mat
-    corr_mat=np.corrcoef(x, y)
+    corr_mat = np.corrcoef(x, y)
 
     # Return entry [0,1]
     return corr_mat[0, 1]
@@ -60,7 +60,7 @@ def acf(series):
         acf_lag = ((data[:n - h] - avg) * (data[h:] - avg)).sum() / n / c0
         return round(acf_lag, 3)
 
-    # Avoiding lag 0 calculation
+    # Avoid lag 0 calculation
     x = np.arange(1, 31)
     acf_coeffs = list(map(r, x))
     return acf_coeffs
