@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.4;
+pragma solidity ^0.8.0;
 
 interface IGaussianRNG {
     function getGaussianRandomNumbers(uint256 salt, uint256 n) external view returns (uint256, int256[] memory);
@@ -13,11 +13,10 @@ interface IGaussianRNG {
 contract GaussianRNG is IGaussianRNG {
     /// A Gaussian random number generator
     /// @param salt A user provided number to create a seed
-    /// @param n The number of random numbers to be generated
-    /// @return seed The seed for this sequence of numbers.
-    /// Seed can be used in another function for reproducing
-    /// the same sequence of numbers.
-    /// @return results Desired sequence of Gaussian random numbers
+    /// @param n The number of random numbers to be generated, ideally < 1000
+    /// @return seed The seed for this sequence of numbers, which can be used
+    /// in another function for reproducing the same sequence of numbers.
+    /// @return nums Desired sequence of Gaussian random numbers
     function getGaussianRandomNumbers(uint256 salt, uint256 n)
         public
         view
@@ -52,14 +51,16 @@ contract GaussianRNG is IGaussianRNG {
         return results;
     }
 
-    /// A public function for counting number of 1s in its binary representation.
+    /// A public function for counting number of 1s in the binary representation
+    /// of a hashed value produced by the keccak256 hashing algorithm.
     /// @param n The number to be checked.
-    /// @return count The number of 1s.
+    /// @return count The number of 1's.
     function countOnes(uint256 n) public pure override returns (uint256) {
         return _countOnes(n);
     }
 
-    /// An internal function calling assembly to count number of 1s
+    /// An internal function in assembly to count number of 1's
+    /// https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
     /// @param n The number to be checked.
     /// @return count The number of 1s.
     function _countOnes(uint256 n) internal pure returns (uint256 count) {
