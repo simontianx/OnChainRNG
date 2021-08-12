@@ -2,13 +2,11 @@
 
 pragma solidity 0.8.4;
 
+/// @author Simon Tian
+/// @title An on-chain Geometric random number generator
 contract GeometricRNG {
 
     uint256 val;
-
-    function getVal2() public pure returns (uint256) {
-        return ~uint256(0);
-    }
 
     function setVal(uint256 val) public {
         val = uint256(keccak256(abi.encodePacked(val)));
@@ -16,6 +14,10 @@ contract GeometricRNG {
 
     function getVal() public view returns (uint256) {
         return val;
+    }
+
+    function getN1s() public view returns (uint256) {
+        return 256 - _mostSignificantBit(val);
     }
 
     function getN11s() public view returns (uint256) {
