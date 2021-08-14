@@ -103,7 +103,16 @@ where $s_n=\sqrt{\sum_{i=1}^{n}p_i(1-p_i)}$.
 In practice, we have $\mu_i \approx 0.5$ and $n=256$ which is large enough to see 
 the asymptomatic effect.
 
-Therefore, the variable $Y=\dfrac{S-128}{8}$ is approximately a standard Gaussian random variable, where $S\equiv \sum_{i=1}^{256} X_i$. The reason this is only an approximation is $S$ can only be discrete integers from 0 to 256. whereas, a Gaussian distribution is a continuous distribution on the range $(-\infty, \infty)$. However, the integer values have good approximation to a Gaussian distribution. See the graph below for a detailed comparison between the CDFs of a standard Gaussian distribution and this algorithm. Besides, numerically, given $P(S<-16)+P(S>16)<2e-57$, the probability that is more extreme than the limits is so small the approximation can be considered good enough.
+Therefore, the variable $Y=\dfrac{S-128}{8}$ is approximately a standard 
+Gaussian random variable, where $S\equiv \sum_{i=1}^{256} X_i$. The reason this 
+is only an approximation is $S$ can only be discrete integers from 0 to 256, 
+whereas, a Gaussian distribution is a continuous distribution on the range 
+$(-\infty, \infty)$. However, the integer values have good approximation to a 
+Gaussian distribution. The graph below shows the CDF of a Gaussian distribution 
+with the mean `128` and standard deviation `8` match almost exactly to the empirical
+CDF of a sample of `3000` random draws based on this algorithm. Besides, given 
+$P(S<-16)+P(S>16)<2e-57$, the probability that is more extreme than the lower 
+and upper limits `0` and `256` is so small that the approximation can be considered being good enough.
 
 ```{r Gaussian, echo=FALSE, fig.cap="Cumulative Probability Density plots. The black dots are the quantiles of 3,000 random counts of 1's produced by this algorithm, and the red solid line is the theoretical Gaussian CDF curve.", fig.align='center'}
 df <- read.csv("nums.csv", col.names="val")
