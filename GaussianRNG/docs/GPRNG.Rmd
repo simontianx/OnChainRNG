@@ -3,10 +3,10 @@ title: "An On-Chain Gaussian Pseudo-Random Number Generator"
 author: "Simon Tian^[simon@dtopia.me]"
 date: "2021/7/31"
 output:
-  pdf_document: default
+  word_document: default
   html_document:
     df_print: paged
-  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -110,9 +110,13 @@ whereas, a Gaussian distribution is a continuous distribution on the range
 $(-\infty, \infty)$. However, the integer values have good approximation to a 
 Gaussian distribution. The graph below shows the CDF of a Gaussian distribution 
 with the mean `128` and standard deviation `8` match almost exactly to the empirical
-CDF of a sample of `3000` random draws based on this algorithm. Besides, given 
-$P(S<-16)+P(S>16)<2e-57$, the probability that is more extreme than the lower 
-and upper limits `0` and `256` is so small that the approximation can be considered being good enough.
+CDF of a sample of `3000` random draws based on this algorithm. A Kolmogorov-Smirnov 
+test shows the largest deviation between the two CDFs is $D=0.035$, which has 
+the `p-value` $0.047$ for a two-sided alternative hypothesis. Not a very strong 
+evidence against the hypothesis that the two samples are from the 
+same distribution. Besides, given $P(S<-16)+P(S>16)<2e-57$, the probability that 
+is more extreme than the lower and upper limits `0` and `256` is so small that 
+the approximation can be considered to be good enough.
 
 ```{r Gaussian, echo=FALSE, fig.cap="Cumulative Probability Density plots. The black dots are the quantiles of 3,000 random counts of 1's produced by this algorithm, and the red solid line is the theoretical Gaussian CDF curve.", fig.align='center'}
 df <- read.csv("nums.csv", col.names="val")
