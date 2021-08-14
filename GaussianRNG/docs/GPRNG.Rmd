@@ -32,13 +32,14 @@ for every $\epsilon > 0$. A thorough numerical study on this assumption can be f
 
 The third assumption is the outcomes of digits must be independent of each other, i.e., 
 knowing the outcome of one digit does not provide any additional knowledge about 
-any other digit. This assumption is also validated in the same study above.
+any other digit. This assumption is also validated in the same study.
 
 ## Methodology
-Based on the three assumptions above, a Gaussian random number generator can 
-be obtained taking the sum of outcomes of these digits. Lyapunov Central Limit 
-Theorem provides the necessary condition and theoretical basis for this algorithm. 
-We start by writing the probability of having $x$ successes, or 1's, out of a total of $n$ digits as
+Based on the three assumptions above, a Gaussian random number can be obtained 
+by taking the sum of outcomes of all `n` digits. Lyapunov Central Limit 
+Theorem provides the theoretical condition and basis for this algorithm. 
+We start by writing the probability of having $x$ successes, or 1's, out of a 
+total of $n$ digits as
 
 \[P(X=x)=\sum_{A\in F_x}\prod_{i\in A}p_i\prod_{i\in A^c}(1-p_i),\]
 
@@ -47,9 +48,9 @@ $\{0, 1, 2, 3, ...\}$. For example, if $n=3$, then
 $F_2=\{\{0, 1\},\{0, 2\},\{1, 2\}\}$. $A^c$ is the complement of $A$, i.e., 
 $A^c=\{0,1,..., n\} \setminus A$.
 
-Notice the outcomes of digits are assumed to be independent and the probabilities
-may not be all equal, but each has the mean $p_i$ and variance $p_i(1-p_i)$, 
-i.e., $E(X_i)=p_i\in(0,1)$ and $var(X_i)=p_i(1-p_i)\in(0,1)$.
+Notice the observed outcomes are assumed to be independent and the true unobserved 
+probabilities may not be all equal. Then the mean and variance of the random 
+outcome of the $i$-th digit $X_i$ are $E(X_i)=p_i\in(0,1)$ and $var(X_i)=p_i(1-p_i)\in(0,1)$.
 
 ## Lyapunov Central Limit Theorem
 This theorem states even if the random variables are not necessarily identically 
@@ -99,7 +100,8 @@ transformation, i.e., \[\displaystyle \dfrac{1}{s_n} \sum_{i=1}^{n}(X_i-p_i) \xr
 
 where $s_n=\sqrt{\sum_{i=1}^{n}p_i(1-p_i)}$.
 
-In practice, we have $\mu_i \approx 0.5$ and $n=256$ which is large enough to be considered . 
+In practice, we have $\mu_i \approx 0.5$ and $n=256$ which is large enough to see 
+the asymptomatic effect.
 
 Therefore, the variable $Y=\dfrac{S-128}{8}$ is approximately a standard Gaussian random variable, where $S\equiv \sum_{i=1}^{256} X_i$. The reason this is only an approximation is $S$ can only be discrete integers from 0 to 256. whereas, a Gaussian distribution is a continuous distribution on the range $(-\infty, \infty)$. However, the integer values have good approximation to a Gaussian distribution. See the graph below for a detailed comparison between the CDFs of a standard Gaussian distribution and this algorithm. Besides, numerically, given $P(S<-16)+P(S>16)<2e-57$, the probability that is more extreme than the limits is so small the approximation can be considered good enough.
 
