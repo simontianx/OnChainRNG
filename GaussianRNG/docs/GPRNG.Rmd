@@ -3,10 +3,10 @@ title: "An On-Chain Gaussian Pseudo-Random Number Generator"
 author: "Simon Tian^[simon@dtopia.me]"
 date: "2021/7/31"
 output:
-  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -48,10 +48,6 @@ $\{0, 1, 2, 3, ...\}$. For example, if $n=3$, then
 $F_2=\{\{0, 1\},\{0, 2\},\{1, 2\}\}$. $A^c$ is the complement of $A$, i.e., 
 $A^c=\{0,1,..., n\} \setminus A$.
 
-Notice the observed outcomes are assumed to be independent and the true unobserved 
-probabilities may not be all equal. Then the mean and variance of the random 
-outcome of the $i$-th digit $X_i$ are $E(X_i)=p_i\in(0,1)$ and $var(X_i)=p_i(1-p_i)\in(0,1)$.
-
 ## Lyapunov Central Limit Theorem
 This theorem states even if the random variables are not necessarily identically 
 distributed, although they have to be independent, the central limit theorem is 
@@ -70,13 +66,13 @@ a standard Gaussian distribution, as $n\rightarrow \infty$:
 \[\displaystyle \frac{1}{s_n}\sum_{i=1}^n\left(X_i-\mu_i\right)\ \xrightarrow{d} \ {\mathcal{N}}(0,1)\]
 
 In this article, the binary outcome of each digit $X_i \sim Bernoulli(p_i)$ is the random 
-variable of concern. As previously discussed, $X_i$ has mean $p_i$ 
-and variance $p_i(1-p_i)$ and independence among outcomes of digits can be 
-reasonably assumed. And the quantity $s_n^2$ can be written as 
-$\sum_{i=1}^n p_i(1-p_i)$.
+variable of concern. The observed outcomes are assumed to be independent and the 
+true unobserved probabilities may not be all equal. Then the mean and variance of the random 
+outcome of the $i$-th digit $X_i$ are $E(X_i)=p_i\in(0,1)$ and $var(X_i)=p_i(1-p_i)\in(0,1)$.
+Then the quantity $s_n^2$ can be written as $\sum_{i=1}^n p_i(1-p_i)$.
 
-Next is to check if the Lyapnov's condition is satisfied for some $\delta>0$, 
-and in particular, $\delta=1$ is checked. The denominator in the *Lyapnov*'s 
+The next step is to check if the Lyapnov's condition is satisfied for some $\delta>0$.
+In this article, $\delta=1$ is checked. The denominator in the *Lyapnov*'s 
 condition can then be written 
 as $\left[\sum_{i=1}^n p_i(1-p_i)\right]^{3/2}$, and the second term can be
 written as $\sum_{i=1}^n \left[p_i(1-p_i)^3 + p_i^3(1-p_i)\right]$. 
@@ -100,16 +96,17 @@ transformation, i.e., \[\displaystyle \dfrac{1}{s_n} \sum_{i=1}^{n}(X_i-p_i) \xr
 
 where $s_n=\sqrt{\sum_{i=1}^{n}p_i(1-p_i)}$.
 
-In practice, we have $\mu_i \approx 0.5$ and $n=256$ which is large enough to see 
-the asymptomatic effect.
+In practice, we have $p_i \approx 0.5$ and $n=256$. The number of digits $n$ is 
+large enough to see the asymptomatic effect.
 
-Therefore, the variable $Y=\dfrac{S-128}{8}$ is approximately a standard 
+Then we can have $Y=\dfrac{S-128}{8}$ as that is distributed approximately as a standard 
 Gaussian random variable, where $S\equiv \sum_{i=1}^{256} X_i$. The reason this 
 is only an approximation is $S$ can only be discrete integers from 0 to 256, 
-whereas, a Gaussian distribution is a continuous distribution on the range 
-$(-\infty, \infty)$. However, the integer values have good approximation to a 
-Gaussian distribution. The graph below shows the CDF of a Gaussian distribution 
-with the mean `128` and standard deviation `8` match almost exactly to the empirical
+whereas a Gaussian distribution is a continuous distribution on the range 
+$(-\infty, \infty)$. However, the probabilities of the integers by this algorithm 
+match with those obtained by a Gaussian distribution well. This can be seen by 
+the graph below that is showing the CDF of a Gaussian distribution with the 
+mean `128` and standard deviation `8` match almost exactly to the empirical
 CDF of a sample of `3000` random draws based on this algorithm. A Kolmogorov-Smirnov 
 test shows the largest deviation between the two CDFs is $D=0.035$, which has 
 the `p-value` $0.047$ for a two-sided alternative hypothesis. Not a very strong 
@@ -129,10 +126,13 @@ plot(sort(z), (1:n - 1)/(n-1), xlab = "Count of 1's", ylab="Cumulative Probabili
 lines(x, pnorm(x, 128, 8), type='l', col='red')
 ```
 
-If this algorithm is to be implemented in `Solidity` that does not support floating number
-operations, and only integers are available, $Z\equiv1000Y=125S-16000$ can be used as a scaled
-Gaussian random number with precision up to three decimal points. If a higher precision
-of one more decimal point is desired, four `keccak256` hashed values can be concatenated as a `1024`-digit long array, and the sum of `1`'s in this array can be scaled to have precision up to 
+If this algorithm is to be implemented in `Solidity` that supports integer 
+operations well yet does not support floating number operations, $Y$ can be 
+scaled as $Z\equiv1000Y=125S-16000$ and $Z$ can be used as a scaled
+Gaussian random number. This can create a Gaussian random number with precision 
+up to three decimal points. If a higher precision of one more decimal point is 
+desired, four `keccak256` hashed values can be concatenated as a `1024`-digit 
+long array, and the sum of `1`'s in this array can be scaled to have precision up to 
 four decimal points.
 
 ## Conclusion

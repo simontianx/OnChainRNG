@@ -34,9 +34,9 @@ def split(binaryArray):
 
 def helper(x):
     """Given an input value x, output an array of binary digits"""
-    hash = keccak256(x);
-    binary = hashToBinary(tmp);
-    arr = split(tmp2);
+    hashVal = keccak256(x);
+    binaryVal = hashToBinary(hashVal);
+    arr = split(binaryVal);
     return arr;
 
 def pearson_r(x, y):
@@ -66,13 +66,14 @@ def acf(series):
     return acf_coeffs
 
 def drawGraph(df, figId):
-    c = 3.725
+    # c = 3.725
+    c = 1.96
     plt.figure(figId);
     line_mid, = plt.plot(df[:,0], label='Avg')
     plt.xlabel("Digit Index")
     plt.ylabel("Probability")
     plt.xlim(0, 256)
-    plt.ylim(0.46, 0.535)
+    plt.ylim(0.49 - 0.02, 0.53 - 0.0)
     plt.hlines(0.5, 0, 256, linestyles='dashed', colors='red')
     line_up, = plt.plot(df[:,0] + c * df[:,1], label="95% CB Upper")
     line_down, = plt.plot(df[:,0] - c * df[:,1], label="95% CB Lower")
@@ -103,7 +104,7 @@ Experiment 3: Strings
 #%%
 ## Experiment 1
 n = 10000
-digits_exp1_1 = np.array([helper(x) for x in np.arange(n)]);
+digits_exp1_1 = np.array([helper(int(x)) for x in np.arange(n)]);
 rslt_exp1_1 = np.array([(np.mean(digits_exp1_1[:,i]), np.std(digits_exp1_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
 drawGraph(rslt_exp1_1, 1)
 
@@ -115,11 +116,11 @@ drawGraph(rslt_exp1_2, 2)
 #%%
 ## Experiment 2
 ## 2.1
-n = 10000
 digits_exp2_1 = np.array([helper("Transaction Number: " + str(x)) for x in np.arange(n)]);
 rslt_exp2_1 = np.array([(np.mean(digits_exp2_1[:,i]), np.std(digits_exp2_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
 drawGraph(rslt_exp2_1, 3)
 
+#%%
 ## 2.2
 digits_exp2_2 = np.array([helper("Transaction Number: " + str(x + 2 ** 128)) for x in np.arange(n)]);
 rslt_exp2_2 = np.array([(np.mean(digits_exp2_2[:,i]), np.std(digits_exp2_2[:,i])/np.sqrt(n)) for i in np.arange(256)])
@@ -128,11 +129,11 @@ drawGraph(rslt_exp2_2, 4)
 #%%
 ## Experiment 3
 ## 3.1
-n = 10000
 digits_exp3_1 = np.array([helper(getStr(7)) for x in np.arange(n)]);
 rslt_exp3_1 = np.array([(np.mean(digits_exp3_1[:,i]), np.std(digits_exp3_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
 drawGraph(rslt_exp3_1, 5)
 
+#%%
 ## 3.2
 digits_exp3_2 = np.array([helper(getStr(32)) for x in np.arange(n)]);
 rslt_exp3_2 = np.array([(np.mean(digits_exp3_2[:,i]), np.std(digits_exp3_2[:,i])/np.sqrt(n)) for i in np.arange(256)])
