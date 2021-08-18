@@ -89,6 +89,11 @@ def getStr(m):
     return "".join(sentence)
 
 #%%
+
+
+
+
+#%%
 """
 Experiment 1: numerical values
 1.1: 0, 1, ..., 10000
@@ -108,10 +113,29 @@ digits_exp1_1 = np.array([helper(int(x)) for x in np.arange(n)]);
 rslt_exp1_1 = np.array([(np.mean(digits_exp1_1[:,i]), np.std(digits_exp1_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
 drawGraph(rslt_exp1_1, 1)
 
+acfs1_1 = list(map(lambda x: acf(x)[1], digits_exp1_1.T))
+plt.plot(acfs1_1)
+
+
+def RogersTanmoto(x1, x2):
+    x3 = x1 ^ x2
+    num = np.sum(list(map(lambda x: 0 if x else 1, x3)))
+    den = len(x1) + np.sum(x3)
+    return num/den
+    
+RogersTanmoto(digits_exp1_1[:,1], digits_exp1_1[:,2])
+RogersTanmoto(digits_exp1_1[1,:], digits_exp1_1[2,:])
+RogersTanmoto(digits_exp1_1[:,2], digits_exp1_1[:,6])
+
+
 #%%
 digits_exp1_2 = np.array([helper(x + 2 ** 128) for x in np.arange(n)]);
 rslt_exp1_2 = np.array([(np.mean(digits_exp1_2[:,i]), np.std(digits_exp1_2[:,i])/np.sqrt(n)) for i in np.arange(256)])
 drawGraph(rslt_exp1_2, 2)
+
+acfs1_2 = list(map(lambda x: acf(x)[1], digits_exp1_2.T))
+plt.plot(acfs1_2)
+
 
 #%%
 ## Experiment 2
