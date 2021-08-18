@@ -20,4 +20,4 @@ This algorithm does not produce continuous Gaussian random numbers. Note this is
 If the precision of one more decimal point is desired, four arrays of `256` binary digits can be concatenated to create a 
 `1024`-digit array. The formula in this case is `(x-512)/16 * 10000 = 625 * x - 320000`. Again, the final results should be divided by `10000` instead of `1000` to restore the original scale.
 
-A general rule is if one more decimal point in precision is desired, `3` more times digits are then needed. On the other hand, if a lower accuracy is acceptable for faster computing speed and lower gas costs, only `1/4` of digits to the current level are sufficient. In other words, suppose the number of dicimal points is `n`, then finding the sum of an array of `2 ** (2*m)` binary digits, where `m=0,1,2,...`, is sufficient.
+A general rule is if one more decimal point in precision is desired, `3` more times digits are then needed. On the other hand, if a lower accuracy is acceptable for faster computing speed and lower gas costs, only `1/4` of digits to the current level are sufficient.
