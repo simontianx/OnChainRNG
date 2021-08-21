@@ -9,7 +9,7 @@ This is a well-known problem and a list of algorithms can be found [here](https:
 
 ## Lyapunov Central Limit Theorem
 For a sequence of random numbers, this theorem states even if they are not necessarily identically 
-distributed, although they have to be independent, the central limit theorem is still valid under [Lyapunov condition](https://en.wikipedia.org/wiki/Central_limit_theorem). Mathematical details of applying this theorem can be found in the [pdf](https://github.com/simontianx/GaussianRNG/blob/main/docs/GPRNG.pdf) in this repo.  
+distributed, although they have to be independent, the central limit theorem is still valid under [Lyapunov condition](https://en.wikipedia.org/wiki/Central_limit_theorem). Mathematical details of applying this theorem can be found in the [pdf](https://github.com/simontianx/OnChainRNG/blob/main/GaussianRNG/docs/GPRNG.pdf) in this repo.  
 
 ## Put it in Solidity and on blockchain
 Since Solidity does not support floating numbers, and it is easy to realize that `(x-128)/8` can have at most 3 significant decimal numbers given `x` is an `uint256` integer and `1/8=0.125`. In practice, the number generated from this can be multiplied by `1000` and stored in an `int256` integer `x * 125 - 16000`. Users do not need to worry about fractions until later when the original scale has to be restored.
