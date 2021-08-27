@@ -21,3 +21,6 @@ If the precision of one more decimal point is desired, four arrays of `256` bina
 `1024`-digit array. The formula in this case is `(x-512)/16 * 10000 = 625 * x - 320000`. Again, the final results should be divided by `10000` instead of `1000` to restore the original scale.
 
 A general rule is if one more decimal point in precision is desired, `3` times more digits are then needed. On the other hand, if a lower accuracy is acceptable for faster computing speed and lower gas costs, only `1/4` of digits to the current level are sufficient.
+
+## Source of randomness
+The source of randomness is another topic and is not covered in the discussion of this algorithm, however, it is recommended to use a high-quality `salt` to initialize the sequence of Gaussian random numbers.
