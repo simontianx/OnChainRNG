@@ -12,7 +12,9 @@ interface IGaussianRNG {
 ///@title A novel on-chain Gaussian random number generator.
 contract GaussianRNG is IGaussianRNG {
     /// A Gaussian random number generator
-    /// @param salt A user provided number to create a seed
+    /// @param salt A user provided number to create a seed, this can be from an
+    /// off-chain or another on-chain reliable source of randomness, to avoid
+    /// being manipulated by miners.
     /// @param n The number of random numbers to be generated, ideally < 1000
     /// @return seed The seed for this sequence of numbers, which can be used
     /// in another function for reproducing the same sequence of numbers.
@@ -23,11 +25,11 @@ contract GaussianRNG is IGaussianRNG {
         override
         returns(uint256, int256[] memory)
     {
-        uint256 seed = salt + block.timestamp;
-        return (seed, reproduceGaussianRandomNumbers(seed, n));
+        uint256 seed = uint256(keccak256(abi.encodePacked(salt + block.timestamp)));
+        return (seed, _GaussianRNG(seed, n));
     }
 
-    /// A Gaussian random number generator with seed
+    /// To reproduce Gaussian random numbers with a given seed
     /// @param seed Seed value for a sequence of random numbers
     /// @param n The number of random numbers to be generated
     /// @return sequence of random numbers
@@ -38,6 +40,18 @@ contract GaussianRNG is IGaussianRNG {
         pure
         override
         returns(int256[] memory)
+    {
+        return _GaussianRNG(seed, n);
+    }
+
+    /// An internal function generating Gaussian random numbers
+    /// @param seed Seed value for a sequence of random numbers
+    /// @param n The number of random numbers to be generated
+    /// @return sequence of random numbers
+    function _GaussianRNG(uint256 seed, uint256 n)
+        internal
+        pure
+        returns (int256[] memory)
     {
         uint256 _num = uint256(keccak256(abi.encodePacked(seed)));
         int256[] memory results = new int256[](n);
