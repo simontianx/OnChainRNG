@@ -122,7 +122,15 @@ def RogersTanmoto(x1, x2):
     num = np.sum(list(map(lambda x: 0 if x else 1, x3)))
     den = len(x1) + np.sum(x3)
     return num/den
+
+def Correlation(x1, x2):
+    S11 = x1 & x2
+    S00 = x1 | x2
+
     
+def SokalMichener(x1, x2):
+    
+
 RogersTanmoto(digits_exp1_1[:,1], digits_exp1_1[:,2])
 RogersTanmoto(digits_exp1_1[1,:], digits_exp1_1[2,:])
 RogersTanmoto(digits_exp1_1[:,2], digits_exp1_1[:,6])
