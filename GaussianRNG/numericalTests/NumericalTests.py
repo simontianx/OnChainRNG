@@ -116,24 +116,49 @@ drawGraph(rslt_exp1_1, 1)
 acfs1_1 = list(map(lambda x: acf(x)[1], digits_exp1_1.T))
 plt.plot(acfs1_1)
 
-
+#%%
 def RogersTanmoto(x1, x2):
+    assert(len(x1) == len(x2))
     x3 = x1 ^ x2
     num = np.sum(list(map(lambda x: 0 if x else 1, x3)))
     den = len(x1) + np.sum(x3)
     return num/den
 
+
 def Correlation(x1, x2):
-    S11 = x1 & x2
-    S00 = x1 | x2
+    assert(len(x1) == len(x2))
+    S11 = np.sum(x1 & x2)
+    def f(x):
+        return np.array(list(map(lambda x: 0 if x else 1, x)))
+    S00 = np.sum(f(x1) & f(x2))
+    S10 = np.sum(x1 & f(x2))
+    S01 = np.sum(f(x1) & x2)
+    sigma = np.sqrt((S10+S11)*(S01+S00))*np.sqrt((S11+S01)*(S00+S10))
+    num = S11 * S00 - S10 * S01
+    return num / sigma
 
     
 def SokalMichener(x1, x2):
-    
+    assert(len(x1) == len(x2))
+    S11 = np.sum(x1 & x2)
+    def f(x):
+        return np.array(list(map(lambda x: 0 if x else 1, x)))
+    S00 = np.sum(f(x1) & f(x2))
+    return (S11 + S00) / len(x1)
+
+#%%
 
 RogersTanmoto(digits_exp1_1[:,1], digits_exp1_1[:,2])
 RogersTanmoto(digits_exp1_1[1,:], digits_exp1_1[2,:])
 RogersTanmoto(digits_exp1_1[:,2], digits_exp1_1[:,6])
+
+Correlation(digits_exp1_1[:,1], digits_exp1_1[:,2])
+Correlation(digits_exp1_1[1,:], digits_exp1_1[2,:])
+Correlation(digits_exp1_1[:,2], digits_exp1_1[:,6])
+
+SokalMichener(digits_exp1_1[:,1], digits_exp1_1[:,2])
+SokalMichener(digits_exp1_1[1,:], digits_exp1_1[2,:])
+SokalMichener(digits_exp1_1[:,2], digits_exp1_1[:,6])
 
 
 #%%
