@@ -12,6 +12,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import string
 
+import itertools
+
+
 asciichars = string.ascii_letters + string.punctuation + string.digits;
 
 #%%
@@ -66,14 +69,14 @@ def acf(series):
     return acf_coeffs
 
 def drawGraph(df, figId):
-    # c = 3.725
-    c = 1.96
+    c = 3.725
+    # c = 1.96
     plt.figure(figId);
     line_mid, = plt.plot(df[:,0], label='Avg')
     plt.xlabel("Digit Index")
     plt.ylabel("Probability")
     plt.xlim(0, 256)
-    plt.ylim(0.49 - 0.02, 0.53 - 0.0)
+    plt.ylim(0.46, 0.54)
     plt.hlines(0.5, 0, 256, linestyles='dashed', colors='red')
     line_up, = plt.plot(df[:,0] + c * df[:,1], label="95% CB Upper")
     line_down, = plt.plot(df[:,0] - c * df[:,1], label="95% CB Lower")
@@ -83,40 +86,13 @@ def drawGraph(df, figId):
         loc='lower center',
         ncol=3)
 
+
 def getStr(m):
     n = np.random.choice(np.arange(2, m));
     sentence = np.random.choice(np.array(list(asciichars)), n);
     return "".join(sentence)
 
-#%%
 
-
-
-
-#%%
-"""
-Experiment 1: numerical values
-1.1: 0, 1, ..., 10000
-1.2: 2^128 + (0, 1, ..., 10000)
-Experiment 2: string + numerical values
-2.1: "Transaction Number: " + 0, 1, ..., 10000
-2.2: "Transaction Number: " + 0, 1, ..., 10000 + 2^128
-Experiment 3: Strings
-3.1: any permutation and combination of up to 7 ASCII characters
-3.2: any permutation and combination of up to 32 ASCII characters
-"""
-
-#%%
-## Experiment 1
-n = 10000
-digits_exp1_1 = np.array([helper(int(x)) for x in np.arange(n)]);
-rslt_exp1_1 = np.array([(np.mean(digits_exp1_1[:,i]), np.std(digits_exp1_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
-drawGraph(rslt_exp1_1, 1)
-
-acfs1_1 = list(map(lambda x: acf(x)[1], digits_exp1_1.T))
-plt.plot(acfs1_1)
-
-#%%
 def RogersTanmoto(x1, x2):
     assert(len(x1) == len(x2))
     x3 = x1 ^ x2
@@ -146,19 +122,54 @@ def SokalMichener(x1, x2):
     S00 = np.sum(f(x1) & f(x2))
     return (S11 + S00) / len(x1)
 
+
+#%%
+"""
+Experiment 1: numerical values
+1.1: 0, 1, ..., 10000
+1.2: 2^128 + (0, 1, ..., 10000)
+Experiment 2: string + numerical values
+2.1: "Transaction Number: " + 0, 1, ..., 10000
+2.2: "Transaction Number: " + 0, 1, ..., 10000 + 2^128
+Experiment 3: Strings
+3.1: any permutation and combination of up to 7 ASCII characters
+3.2: any permutation and combination of up to 32 ASCII characters
+"""
+
+#%%
+## Experiment 1
+n = 10000
+digits_exp1_1 = np.array([helper(int(x)) for x in np.arange(n)]);
+rslt_exp1_1 = np.array([(np.mean(digits_exp1_1[:,i]), np.std(digits_exp1_1[:,i])/np.sqrt(n)) for i in np.arange(256)])
+drawGraph(rslt_exp1_1, 1)
+
+
+# 1 point and interval estimation
+# 2 independence among outcomes
+# 3 independence between inputs and outputs
+# 4 autocorrelation
+
+acfs1_1 = list(map(lambda x: acf(x)[1], digits_exp1_1.T))
+plt.plot(acfs1_1)
+
+
 #%%
 
-RogersTanmoto(digits_exp1_1[:,1], digits_exp1_1[:,2])
-RogersTanmoto(digits_exp1_1[1,:], digits_exp1_1[2,:])
-RogersTanmoto(digits_exp1_1[:,2], digits_exp1_1[:,6])
+combinations = np.array(list(itertools.combinations(range(digits_exp1_1.shape[1]), 2)))
 
-Correlation(digits_exp1_1[:,1], digits_exp1_1[:,2])
-Correlation(digits_exp1_1[1,:], digits_exp1_1[2,:])
-Correlation(digits_exp1_1[:,2], digits_exp1_1[:,6])
+results = np.array([])
 
-SokalMichener(digits_exp1_1[:,1], digits_exp1_1[:,2])
-SokalMichener(digits_exp1_1[1,:], digits_exp1_1[2,:])
-SokalMichener(digits_exp1_1[:,2], digits_exp1_1[:,6])
+for i, j in combinations:
+    rt = RogersTanmoto(digits_exp1_1[:,i], digits_exp1_1[:,j])
+    c = Correlation(digits_exp1_1[:,i], digits_exp1_1[:,j])
+    sm = SokalMichener(digits_exp1_1[:,i], digits_exp1_1[:,j])
+    row = (i, j, rt, c, sm);
+    results = np.append(results, row);
+
+
+plt.hist(results[2:-1:5], bins=50)
+plt.hist(results[3:-1:5], bins=50)
+plt.hist(results[4:-1:5], bins=50)
 
 
 #%%
@@ -168,7 +179,6 @@ drawGraph(rslt_exp1_2, 2)
 
 acfs1_2 = list(map(lambda x: acf(x)[1], digits_exp1_2.T))
 plt.plot(acfs1_2)
-
 
 #%%
 ## Experiment 2
