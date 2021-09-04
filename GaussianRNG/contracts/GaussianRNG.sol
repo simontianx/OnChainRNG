@@ -8,7 +8,7 @@ interface IGaussianRNG {
     function countOnes(uint256 n) external pure returns (uint256);
 }
 
-///@author Simon Tian (simon@dtopia.me)
+///@author Simon Tian
 ///@title A novel on-chain Gaussian random number generator.
 contract GaussianRNG is IGaussianRNG {
     /// A Gaussian random number generator
