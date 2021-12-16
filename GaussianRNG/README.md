@@ -25,4 +25,4 @@ If the precision of one more decimal point is desired, four arrays of `256` bina
 A general rule is if one more decimal point in precision is desired, `3` times more digits are then needed. On the other hand, if a lower accuracy is acceptable for faster computing speed and lower gas costs, only `1/4` of digits to the current level are sufficient.
 
 ## Source of randomness
-The source of randomness is another topic and is not covered in the discussion of this algorithm, however, it is recommended to use a high-quality `seed` to initialize the sequence of Gaussian random numbers.
+The source of randomness is another topic and is not covered in the discussion of this algorithm, however, it is recommended to use a high-quality `salt` to initialize the sequence of Gaussian random numbers.
