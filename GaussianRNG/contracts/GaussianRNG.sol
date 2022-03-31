@@ -11,16 +11,16 @@ interface IGaussianRNG {
 ///@author Simon Tian
 ///@title A novel on-chain Gaussian random number generator.
 contract GaussianRNG is IGaussianRNG {
-    /// A Gaussian random number generator
-    /// @param salt A user provided number to create a seed, this can be from an
-    /// off-chain or another on-chain reliable source of randomness, to avoid
-    /// being manipulated by miners.
-    /// @param n The number of random numbers to be generated, ideally < 1000
+
+    /// @param salt A user provided number to create a seed, this can be
+    /// an off-chain number or an on-chain source of randomness, to avoid miner
+    /// manipulation.
+    /// @param n The number of random numbers to be generated, ideally < 1000.
     /// @return seed The seed for this sequence of numbers, which can be used
     /// in another function for reproducing the same sequence of numbers.
     /// @return nums Desired sequence of Gaussian random numbers
     function getGaussianRandomNumbers(uint256 salt, uint256 n)
-        public
+        external
         view
         override
         returns(uint256, int256[] memory)
@@ -36,7 +36,7 @@ contract GaussianRNG is IGaussianRNG {
     /// @notice This function is used for recreating a sequence of numbers given
     /// seed generated in the previous function.
     function reproduceGaussianRandomNumbers(uint256 seed, uint256 n)
-        public
+        external
         pure
         override
         returns(int256[] memory)
@@ -44,12 +44,12 @@ contract GaussianRNG is IGaussianRNG {
         return _GaussianRNG(seed, n);
     }
 
-    /// An internal function generating Gaussian random numbers
+    /// The private function generating Gaussian random numbers
     /// @param seed Seed value for a sequence of random numbers
     /// @param n The number of random numbers to be generated
     /// @return sequence of random numbers
     function _GaussianRNG(uint256 seed, uint256 n)
-        internal
+        private
         pure
         returns (int256[] memory)
     {
@@ -65,19 +65,19 @@ contract GaussianRNG is IGaussianRNG {
         return results;
     }
 
-    /// A public function for counting number of 1s in the binary representation
+    /// An external function for counting number of 1's in the binary representation
     /// of a hashed value produced by the keccak256 hashing algorithm.
     /// @param n The number to be checked.
     /// @return count The number of 1's.
-    function countOnes(uint256 n) public pure override returns (uint256) {
+    function countOnes(uint256 n) external pure override returns (uint256) {
         return _countOnes(n);
     }
 
-    /// An internal function in assembly to count number of 1's
-    /// https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+    /// A private function in assembly to count the number of 1's
+    /// Ref: https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
     /// @param n The number to be checked.
     /// @return count The number of 1s.
-    function _countOnes(uint256 n) internal pure returns (uint256 count) {
+    function _countOnes(uint256 n) private pure returns (uint256 count) {
         assembly {
             for { } gt(n, 0) { } {
                 n := and(n, sub(n, 1))

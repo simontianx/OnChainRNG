@@ -8,7 +8,7 @@ A novel on-chain Gaussian random number generator is proposed and presented in t
 This is a well-known problem and a list of algorithms can be found [here](https://www.geeksforgeeks.org/count-set-bits-in-an-integer/).
 
 ## Lyapunov Central Limit Theorem
-For a sequence of random numbers, the theorem states that even if they are not necessarily identically 
+For a sequence of random numbers, the theorem states that even if they are not necessarily identically
 distributed, although they have to be independent, the central limit theorem is still valid under [Lyapunov condition](https://en.wikipedia.org/wiki/Central_limit_theorem). Mathematical details of applying this theorem can be found in the [pdf](https://github.com/simontianx/OnChainRNG/blob/main/GaussianRNG/docs/GPRNG.pdf) in this repo.  
 
 ## Put it in Solidity and on blockchain
@@ -19,7 +19,7 @@ Since Solidity does not support floating numbers, and it is easy to realize that
 ## Accuracy
 This algorithm does not produce continuous Gaussian random numbers. Note this is an approximation with precision up to three decimal points. It may not cover all scenarios but it is a step forward to consume Gaussian randomness on-chain.
 
-If the precision of one more decimal point is desired, four arrays of `256` binary digits can be concatenated to create a 
+If the precision of one more decimal point is desired, four arrays of `256` binary digits can be concatenated to create a
 `1024`-digit array. The formula in this case is `(x-512)/16 * 10000 = 625 * x - 320000`. Again, the final results should be divided by `10000` instead of `1000` to restore the original scale.
 
 A general rule is if one more decimal point in precision is desired, `3` times more digits are then needed. On the other hand, if a lower accuracy is acceptable for faster computing speed and lower gas costs, only `1/4` of digits to the current level are sufficient.
