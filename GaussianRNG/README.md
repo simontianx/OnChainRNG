@@ -1,5 +1,5 @@
 # An On-Chain Gaussian Random Number Generator
-A novel on-chain Gaussian random number generator is proposed and presented in this project. It is utilizing the count of 1's in the binary representation of hashed values by the `keccak256` hashing algorithm. By Lyapunov Central Limit Theorem, this count after proper transformations, has a Gaussian distribution. It is lightning fast and costs little gas, and has a great potential in gaining a broad applicability.
+A novel on-chain Gaussian random number generator is proposed and presented in this project. It is taking the count of 1's in the binary representation of hashed values by the `keccak256` hashing algorithm, through proper transformations, according to Lyapunov Central Limit Theorem, to obtain a Gaussian distribution. It is lightning fast and costs little gas, and has a great potential in gaining a broad applicability.
 
 ## `keccak256` Algorithm
 `keccak256` algorithm is the default hashing algorithm to many blockchains. It is known to be generating pseudo randomness that is roughly fair across all `256` digits, i.e., every digit has roughly equal probability of being `0` or `1`. The independence of outcomes among all digits is an assumed requirement. A numerical study is being carried out [here](https://github.com/simontianx/OnChainRNG/tree/main/GaussianRNG/docs/NumericalStudy).
