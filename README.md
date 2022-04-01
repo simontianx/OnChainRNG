@@ -1,4 +1,2 @@
 # OnChainRNG
-This repo contains on-chain discrete random number generators for Bernoulli Distribution, Geometric Distribution, Binomial Distribution, Negative Binomial Distribution and even [Gaussian Distribution](https://github.com/simontianx/OnChainRNG/tree/main/GaussianRNG).
-
-Smart contracts, technical details and numerical tests are given for each distribution in its own folder.
+This repo aims to create a set of on-chain discrete random number generators possibly for a few well studied ones including Bernoulli Distribution, Geometric Distribution, Binomial Distribution, Negative Binomial Distribution. [Gaussian Distribution](https://github.com/simontianx/OnChainRNG/tree/main/GaussianRNG), supposedly a continuous distribution, can be approximated and thus is included as well.
