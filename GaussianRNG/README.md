@@ -1,8 +1,8 @@
 # An On-Chain Gaussian Random Number Generator
-A novel on-chain Gaussian random number generator is proposed and presented in this project. It is taking the count of 1's in the binary representation of hashed values by the `keccak256` hashing algorithm, through proper transformations, according to Lyapunov Central Limit Theorem, to obtain a Gaussian distribution. It is lightning fast and costs little gas, and has a great potential in gaining a broad applicability.
+A novel on-chain Gaussian random number generator is proposed and presented in this project. It is taking the count of 1's in the binary representation of a hashed value calculated by the `keccak256` hashing algorithm, through proper transformations, according to Lyapunov Central Limit Theorem, to obtain a Gaussian distribution. It is lightning fast and costs little gas, and has a great potential in gaining broad applicability.
 
 ## `keccak256` Algorithm
-`keccak256` algorithm is the default hashing algorithm to many blockchains. It is known to be generating pseudo randomness that is roughly fair across all `256` digits, i.e., every digit has roughly equal probability of being `0` or `1`. The independence of outcomes among all digits is an assumed requirement. A numerical study is being carried out [here](https://github.com/simontianx/OnChainRNG/tree/main/GaussianRNG/docs/NumericalStudy).
+`keccak256` algorithm is the default hashing algorithm to many blockchains. It is known to be generating pseudo randomness that is roughly fair across all `256` digits, i.e., every digit has roughly equal probability of being `0` or `1`. The independence of outcomes among all digits is assumed and being studied in a numerical study [here](https://github.com/simontianx/OnChainRNG/tree/main/GaussianRNG/docs/NumericalStudy).
 
 ## Algorithm for counting 1's
 This is a well-known problem and a list of algorithms can be found [here](https://www.geeksforgeeks.org/count-set-bits-in-an-integer/).
