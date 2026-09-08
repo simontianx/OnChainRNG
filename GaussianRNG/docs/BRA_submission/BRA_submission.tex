@@ -46,7 +46,9 @@ statistically indistinguishable from the control on every diagnostic: the
 summed bit bias shifts the standardized output by at most $0.02$ standard
 deviations, the ratio of the observed popcount variance to the
 independence-implied variance lies within $0.988$--$1.017$, the
-Kolmogorov--Smirnov distance to the exact binomial law is below $0.012$, and
+Kolmogorov--Smirnov distance to the exact binomial law is below $0.012$ at
+$10^{4}$ draws and below the $5\%$ critical value at $10^{6}$ draws, the
+two-sided tails agree with the binomial law through $z=4$, and
 repeated-primitive output sequences show no short-lag structure. Measured on
 the EVM, the full transform costs about $530$ gas per draw with a
 constant-time population count. The result is a lightweight Gaussianization
@@ -65,7 +67,7 @@ theorem; EVM; Solana; Sui
 \item Popcount of a VM-native hash yields a Gaussian draw with integer arithmetic only.
 \item Lyapunov-CLT justification with explicit conditions for the $(n/2,\sqrt{n}/2)$ scaling.
 \item Keccak-256 and SHA-256 match an iid fair-bit control on every diagnostic tested.
-\item KS distance to the exact binomial law is below $0.012$ at $n=256$ with $10{,}000$ draws.
+\item Tails match the exact binomial law through $z=4$ at $10^{6}$ draws per target.
 \item Full transform costs about $530$ gas on the EVM with a constant-time SWAR popcount.
 \end{itemize}
 
@@ -743,7 +745,12 @@ Figure~\ref{fig:normalization} and Table~\ref{tab:normalization} report both,
 together with the standardized centering shift $(\hat\mu-128)/8$. In the
 present run the largest $|\hat\mu-128|$ is $0.171$ (Experiment~2.1), which
 shifts the standardized output by $0.021$ standard deviations; the other five
-families shift it by at most $0.014$.
+families shift it by at most $0.014$. The standard error of $\hat\mu$ at
+$10{,}000$ draws is $8/\sqrt{10{,}000}=0.08$, so the Experiment~2.1 value is
+a $2.1$-standard-error fluctuation rather than a systematic offset; the
+$10^{6}$-draw study of Section~\ref{sec:tails} confirms this, with
+$|\hat\mu-128|\le 0.011$ across all ten targets, a centering shift of at most
+$0.0014$ standard deviations.
 
 The implied scale $\hat\sigma$ equals $7.9996$ in every family. That agreement
 is not evidence: as the corollary shows, it is forced by the smallness of the
@@ -848,6 +855,64 @@ are distances to the exact $\mathrm{Binomial}(256,\tfrac12)$ law. The
 discreteness floor for KS$_{\mathcal N}$ is $0.0249$.}
 \label{tab:distribution}
 \end{table}
+
+The tail-error column carries the same kind of lattice offset. The two-sided
+tail is evaluated at $|S-128|\ge 8z$, and on the lattice that event includes
+the atom at exactly $8z$, so the exact binomial tail is systematically
+heavier than the uncorrected Gaussian tail: $0.0525$ against $0.0455$ at
+$z=2$, a gap of $0.007$ that is present even for perfectly fair independent
+bits. Applying the usual continuity correction, that is, comparing with
+$2\bigl(1-\Phi((8z-\tfrac12)/8)\bigr)$, reproduces the binomial tail to three
+decimals at every $z$ from $1$ to $4$. The observed $|\Delta T_2|$ values of
+$0.005$--$0.014$ in Table~\ref{tab:distribution} are therefore mostly this
+offset, not a property of the bits.
+
+\subsection{Tails at $10^{6}$ draws}
+\label{sec:tails}
+
+With $10{,}000$ draws the two-sided Gaussian tail at $z=3$ corresponds to
+about $27$ draws and at $z=4$ to fewer than one, so the diagnostics above say
+little about the extreme tails. To address this directly, a separate run
+draws $10^{6}$ \texttt{keccak256} popcounts for each of the six one-shot
+families and each of the four repeated-hash chains, that is, $10^{7}$ digests
+in total, and compares the tails against the exact binomial law.
+Table~\ref{tab:tail-1e6} reports the two-sided tail probabilities in units of
+$10^{-3}$ at $z=1,\dots,4$, with the Gaussian and binomial references in the
+first two rows, and Table~\ref{tab:tail-ks-1e6} the corresponding mean,
+standard deviation, and Kolmogorov-Smirnov distance to the binomial law.
+
+\begin{table}[htbp]
+\centering
+\small
+\input{../NumericalStudy/generated/tail_study_table.tex}
+\caption{Two-sided tail probabilities $\mathbb{P}(|S-128|\ge 8z)$ in units of
+$10^{-3}$ from $10^{6}$ draws per target, against the continuous Gaussian and
+the exact $\mathrm{Binomial}(256,\tfrac12)$ references. At $z=4$ the binomial
+reference corresponds to $76$ expected draws.}
+\label{tab:tail-1e6}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\small
+\input{../NumericalStudy/generated/tail_study_ks_table.tex}
+\caption{Mean, standard deviation, and Kolmogorov-Smirnov distance to the exact
+binomial law from $10^{6}$ draws per target. The $5\%$ critical value at this
+sample size is $1.36/\sqrt{10^{6}}=0.00136$.}
+\label{tab:tail-ks-1e6}
+\end{table}
+
+Every target tracks the binomial row, not the Gaussian row, at every
+threshold, including $z=4$, where the observed counts range from $67$ to $94$
+against $76$ expected. Of the $70$ target-by-threshold comparisons, seven
+exceed $1.96$ binomial standard errors in absolute value and the largest is
+$2.45$; the thresholds are nested within each target, so these comparisons are
+strongly correlated and a modest excess over the nominal $3.5$ is not
+surprising, and the deviations show no consistent sign across thresholds. The
+Kolmogorov-Smirnov distance to the binomial law lies between $0.0006$ and
+$0.0011$ for all ten targets, below the $5\%$ critical value of $0.00136$ at
+this sample size, so none of them rejects the fair-coin binomial law even with
+a hundred times more data than the main study.
 
 \section{Repeated-Hash Sequence Diagnostics}
 
@@ -1005,11 +1070,11 @@ the CLT heuristic and the finite-sample numerical diagnostics. Two further
 finite-sample caveats apply. The corollary shows that the centering error of
 the fixed normalization scales as $2B_n/\sqrt{n}$, so at a fixed level of
 systematic bit bias the error \emph{grows} with width; a wider primitive
-improves resolution but does not automatically improve centering. And with
-$10{,}000$ draws per family, tail estimates beyond $z=2$ are noisy: the
-two-sided Gaussian tail at $z=3$ corresponds to about $27$ expected draws, so
-the study reports tail error at $z=2$ and makes no quantitative claim about
-more extreme tails. The repeated-hash study similarly addresses obvious
+improves resolution but does not automatically improve centering. And the
+tail evidence, while it now extends to $z=4$ with $10^{6}$ draws per target,
+stops there: at $z=4$ the binomial reference is $76$ expected draws, and the
+lattice support ends at $z=16$, so the study makes no claim about tails
+beyond $z=4$ or about the extreme atoms of the distribution. The repeated-hash study similarly addresses obvious
 short-lag structure for a small set of representative seeds; it should not be
 read as a proof against all forms of long-range or adversarially chosen
 dependence.
@@ -1069,8 +1134,10 @@ draw.
 Every hash, statistic, table, and figure in this paper is generated
 deterministically from the fixed seed \texttt{20260415} by the scripts in the
 public repository \url{https://github.com/simontianx/OnChainRNG}, directory
-\texttt{GaussianRNG/docs/NumericalStudy}; the Keccak-256 implementation used
-there is checked against a reference test vector at start-up. The EVM gas
+\texttt{GaussianRNG/docs/NumericalStudy}, whose three scripts produce the main
+study, the cross-VM study, and the $10^{6}$-draw tail study respectively; the
+Keccak-256 implementation used there is checked against a reference test
+vector at start-up. The EVM gas
 benchmark of Table~\ref{tab:gas} is a Foundry project in
 \texttt{GaussianRNG/benchmarks}, and a Solidity reference implementation of
 the $n=256$ generator with the SWAR population count is in

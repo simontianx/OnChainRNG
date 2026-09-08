@@ -102,8 +102,12 @@ Items the author must confirm personally: the competing-interest and funding
 statements use standard wording and were not verified.
 
 ## Not done / follow-ups
-- Tail estimates beyond z=2 remain noisy at n=10,000; the paper now says so.
-  Rerunning with 10^6 draws for the tail panels would remove the caveat.
+- (Done, same day) 10^6-draw tail study added (`generate_tail_study.py`,
+  Section "Tails at 10^6 draws"): KS to exact binomial 0.0006–0.0011 for all
+  ten targets (5% critical 0.00136); tails match the binomial through z=4.
+  Also found that the uncorrected |ΔT_2| carries a built-in 0.007 lattice
+  offset (binomial 0.0525 vs Gaussian 0.0455 at z=2); continuity correction
+  reproduces the binomial tail to three decimals. Stated in the paper.
 - BLAKE3 is still untested.
 - `hardhat` test in `GaussianRNG/test/test.js` was not rerun (no node_modules);
   the contract was verified with Foundry instead.

@@ -25,6 +25,7 @@ To regenerate the tables and CSVs first (deterministic, seed `20260415`):
 ```bash
 python3 ../NumericalStudy/generate_study_artifacts.py
 python3 ../NumericalStudy/generate_cross_vm_artifacts.py
+python3 ../NumericalStudy/generate_tail_study.py   # 10^6 draws per target, ~9 min on 10 cores
 ```
 
 The gas numbers in the on-chain implications section come from the Foundry
