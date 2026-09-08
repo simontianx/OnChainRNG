@@ -1,0 +1,121 @@
+sequence,label,lag,acf,abs_acf
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,1,0.004168484337599054,0.004168484337599054
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,2,0.0193367634495919,0.0193367634495919
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,3,0.011059699963856487,0.011059699963856487
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,4,0.00899116287500559,0.00899116287500559
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,5,-0.007247497253815785,0.007247497253815785
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,6,4.499147457203106e-05,4.499147457203106e-05
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,7,-0.015239683946095676,0.015239683946095676
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,8,-0.02477998330618653,0.02477998330618653
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,9,-0.0012715141131804009,0.0012715141131804009
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,10,-0.019511973979231014,0.019511973979231014
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,11,0.009501561162164138,0.009501561162164138
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,12,0.0027438891100819234,0.0027438891100819234
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,13,0.0019702190355506567,0.0019702190355506567
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,14,0.008609268520929485,0.008609268520929485
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,15,0.014518094009661746,0.014518094009661746
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,16,-0.007370314534586583,0.007370314534586583
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,17,-0.0008847524882725817,0.0008847524882725817
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,18,0.005644601470717351,0.005644601470717351
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,19,-0.005316640771392284,0.005316640771392284
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,20,0.0070972863718712555,0.0070972863718712555
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,21,-0.008918510429758213,0.008918510429758213
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,22,-0.01132374308346069,0.01132374308346069
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,23,-0.0033189389045068926,0.0033189389045068926
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,24,-0.006365782246934948,0.006365782246934948
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,25,0.01902492308591397,0.01902492308591397
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,26,0.011528238478800362,0.011528238478800362
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,27,-0.01678169171852683,0.01678169171852683
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,28,-0.008944429790949794,0.008944429790949794
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,29,-0.004379247294755473,0.004379247294755473
+seq_uint_seed_1,Sequence 1: repeated hashing from uint256 seed 1,30,-0.011513735218894082,0.011513735218894082
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,1,0.00787752896583355,0.00787752896583355
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,2,-0.017653627919938724,0.017653627919938724
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,3,-0.012396878267035635,0.012396878267035635
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,4,-0.00098968530165929,0.00098968530165929
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,5,-0.008820285203350145,0.008820285203350145
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,6,0.004172200257642309,0.004172200257642309
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,7,-0.004758634251205073,0.004758634251205073
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,8,-0.013776509718459165,0.013776509718459165
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,9,0.03386006435581309,0.03386006435581309
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,10,0.0063559266024342306,0.0063559266024342306
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,11,0.004980188195284265,0.004980188195284265
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,12,0.012843657468695901,0.012843657468695901
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,13,0.0013750016588973317,0.0013750016588973317
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,14,0.010886828741293398,0.010886828741293398
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,15,-0.008814939082482721,0.008814939082482721
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,16,-0.009273250149126822,0.009273250149126822
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,17,0.002305720900894621,0.002305720900894621
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,18,0.00749131672096466,0.00749131672096466
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,19,0.00839516039842566,0.00839516039842566
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,20,0.008022746111443125,0.008022746111443125
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,21,0.003254115067492975,0.003254115067492975
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,22,-0.008572815698977991,0.008572815698977991
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,23,-0.0008733500635488372,0.0008733500635488372
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,24,-0.007667997328535585,0.007667997328535585
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,25,0.017336577946999925,0.017336577946999925
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,26,-0.00943301221086268,0.00943301221086268
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,27,-0.007396063815245316,0.007396063815245316
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,28,-0.0006032137733333119,0.0006032137733333119
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,29,0.004940777800640707,0.004940777800640707
+seq_uint_seed_shifted,Sequence 2: repeated hashing from uint256 seed 2^128+1,30,0.002592441983510752,0.002592441983510752
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,1,0.01838720462034926,0.01838720462034926
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,2,0.007477309473275365,0.007477309473275365
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,3,-0.0011135890445335937,0.0011135890445335937
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,4,0.022807086213474277,0.022807086213474277
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,5,0.00896154807497623,0.00896154807497623
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,6,0.01516980755918487,0.01516980755918487
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,7,0.00440251989120736,0.00440251989120736
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,8,0.011193916976782455,0.011193916976782455
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,9,0.004282314522496994,0.004282314522496994
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,10,-0.003757267407901071,0.003757267407901071
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,11,-0.004810878648022787,0.004810878648022787
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,12,-0.009866054471600817,0.009866054471600817
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,13,0.002642793973569436,0.002642793973569436
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,14,-0.005687821475311472,0.005687821475311472
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,15,-0.008447486552400641,0.008447486552400641
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,16,-0.0037509319618511355,0.0037509319618511355
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,17,-0.010320359348710496,0.010320359348710496
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,18,0.03544073423115521,0.03544073423115521
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,19,0.00658861885182748,0.00658861885182748
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,20,0.001971271076387537,0.001971271076387537
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,21,-0.008954551844831892,0.008954551844831892
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,22,-0.007316581846460142,0.007316581846460142
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,23,-0.0047392145564972964,0.0047392145564972964
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,24,-0.005198685524276595,0.005198685524276595
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,25,-0.008097651655458761,0.008097651655458761
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,26,-0.004409644135681975,0.004409644135681975
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,27,-0.016431849992239254,0.016431849992239254
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,28,-0.0001182506763071581,0.0001182506763071581
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,29,-0.0038152454204596277,0.0038152454204596277
+seq_string_seed_tx,Sequence 3: repeated hashing from string seed Transaction Number: 1,30,0.011940579862564592,0.011940579862564592
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,1,0.0012708131746769703,0.0012708131746769703
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,2,-0.014212101382239863,0.014212101382239863
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,3,0.005821090622317357,0.005821090622317357
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,4,-0.008600937784131934,0.008600937784131934
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,5,0.006298655684066712,0.006298655684066712
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,6,-0.0075739835514884776,0.0075739835514884776
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,7,0.0095238965168698,0.0095238965168698
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,8,0.006230937990412703,0.006230937990412703
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,9,-0.0023332718193488215,0.0023332718193488215
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,10,-0.012184721259137842,0.012184721259137842
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,11,0.017727225253844358,0.017727225253844358
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,12,0.010982522940802176,0.010982522940802176
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,13,0.008334699599656619,0.008334699599656619
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,14,0.005564012256251496,0.005564012256251496
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,15,0.006061145588209624,0.006061145588209624
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,16,-0.0010545288943826596,0.0010545288943826596
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,17,-0.0014529873422943834,0.0014529873422943834
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,18,0.01294696235693238,0.01294696235693238
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,19,-0.002862272515943126,0.002862272515943126
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,20,-0.00869211959841894,0.00869211959841894
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,21,-0.008752753610310231,0.008752753610310231
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,22,0.00243050130988291,0.00243050130988291
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,23,-0.006533940803765102,0.006533940803765102
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,24,-0.017761997051771717,0.017761997051771717
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,25,0.02304928603050734,0.02304928603050734
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,26,0.0006632171232083302,0.0006632171232083302
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,27,0.009095829002759398,0.009095829002759398
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,28,0.009896607633340684,0.009896607633340684
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,29,-0.0008841366911611894,0.0008841366911611894
+seq_string_seed_alpha,Sequence 4: repeated hashing from string seed Sequence Seed: alpha-2026,30,-0.014295230629838675,0.014295230629838675

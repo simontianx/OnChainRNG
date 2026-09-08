@@ -1,0 +1,7 @@
+experiment,label,mean_abs_block_correlation,max_abs_block_correlation
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.007198841326661618,0.026293963759887892
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.008170971098583366,0.030208454790911096
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.006927429348742303,0.030864970178707114
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.007308080567632521,0.03251813183412757
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.008289023343685581,0.02676668459212234
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.007405148863018697,0.028252997328769208

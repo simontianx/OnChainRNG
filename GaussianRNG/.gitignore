@@ -3,3 +3,19 @@ node_modules
 #Hardhat files
 cache
 artifacts
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Python / Foundry / macOS
+__pycache__/
+benchmarks/out/
+benchmarks/cache/
+.DS_Store

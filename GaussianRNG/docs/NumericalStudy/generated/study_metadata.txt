@@ -1,0 +1,10 @@
+random_seed=20260415
+n_samples=10000
+max_lag=30
+cdf_sample_size=3000
+qq_subsample=500
+sequence_scatter_limit=3000
+bonferroni_z=3.72500352
+cdf_source=Experiment 3.2: Random ASCII strings up to length 32
+ks_distance=0.035960
+binomial_normal_ks_floor=0.024910

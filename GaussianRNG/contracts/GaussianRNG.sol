@@ -73,16 +73,28 @@ contract GaussianRNG is IGaussianRNG {
         return _countOnes(n);
     }
 
-    /// A private function in assembly to count the number of 1's
-    /// Ref: https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+    /// A private function to count the number of 1's using a SWAR
+    /// (SIMD-within-a-register) reduction. The instruction count is fixed and
+    /// does not depend on the input value, unlike the Kernighan loop
+    /// (`n &= n - 1`), which costs one iteration per set bit and thereby
+    /// leaks the Hamming weight through gas consumption. See
+    /// benchmarks/README.md for measured gas.
     /// @param n The number to be checked.
     /// @return count The number of 1s.
     function _countOnes(uint256 n) private pure returns (uint256 count) {
-        assembly {
-            for { } gt(n, 0) { } {
-                n := and(n, sub(n, 1))
-                count := add(count, 1)
-            }
+        uint256 m1 = 0x5555555555555555555555555555555555555555555555555555555555555555;
+        uint256 m2 = 0x3333333333333333333333333333333333333333333333333333333333333333;
+        uint256 m4 = 0x0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f;
+        uint256 h01 = 0x0101010101010101010101010101010101010101010101010101010101010101;
+        unchecked {
+            n = n - ((n >> 1) & m1);
+            n = (n & m2) + ((n >> 2) & m2);
+            n = (n + (n >> 4)) & m4;
+            // Each byte holds a count in [0, 8]; the byte-sum can reach 256,
+            // so read the top 16 bits rather than the top byte.
+            count = (n * h01) >> 248;
+            // The only overflow case is n == type(uint256).max (count 256 wraps to 0).
+            if (count == 0 && n != 0) count = 256;
         }
     }
 }

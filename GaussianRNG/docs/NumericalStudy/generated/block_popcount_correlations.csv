@@ -1,0 +1,721 @@
+experiment,label,left_block,right_block,correlation,abs_correlation
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,1,0.003294721393992815,0.003294721393992815
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,2,-0.009665583888576282,0.009665583888576282
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,3,-0.007855683421393856,0.007855683421393856
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,4,0.00501684459752317,0.00501684459752317
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,5,-0.00767806556223111,0.00767806556223111
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,6,-0.0004015817856513927,0.0004015817856513927
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,7,-0.0020957434339372526,0.0020957434339372526
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,8,-0.010041320439232141,0.010041320439232141
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,9,-0.02490277670983901,0.02490277670983901
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,10,-0.014926301820875135,0.014926301820875135
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,11,-0.0009536149635589854,0.0009536149635589854
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,12,0.002905838988355386,0.002905838988355386
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,13,0.00027384439979599273,0.00027384439979599273
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,14,-0.008864911780789547,0.008864911780789547
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0,15,-0.017098982999921658,0.017098982999921658
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,2,-0.01165085250480468,0.01165085250480468
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,3,-0.0055778124339554685,0.0055778124339554685
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,4,-0.008005774537536314,0.008005774537536314
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,5,-0.003976916332086585,0.003976916332086585
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,6,-0.007830535829601772,0.007830535829601772
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,7,0.004476813499767552,0.004476813499767552
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,8,0.0012055109009261767,0.0012055109009261767
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,9,-0.000343053521064853,0.000343053521064853
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,10,0.006064172525624896,0.006064172525624896
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,11,-0.00044723724368346134,0.00044723724368346134
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,12,0.006529318151027249,0.006529318151027249
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,13,0.0002469719185395013,0.0002469719185395013
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,14,-0.004265763629090992,0.004265763629090992
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,1,15,0.0018061137126428473,0.0018061137126428473
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,3,0.006644749668563532,0.006644749668563532
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,4,0.0038527456206196645,0.0038527456206196645
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,5,-0.009763636793668283,0.009763636793668283
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,6,0.00874048455116735,0.00874048455116735
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,7,-0.01601185899449423,0.01601185899449423
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,8,-0.0033416505628298763,0.0033416505628298763
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,9,0.017910396123577227,0.017910396123577227
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,10,-0.0007606758536586259,0.0007606758536586259
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,11,-0.02292922965165487,0.02292922965165487
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,12,-0.0012800380112501875,0.0012800380112501875
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,13,0.019441782718016366,0.019441782718016366
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,14,-0.0023383359701939434,0.0023383359701939434
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,2,15,0.00665422457096415,0.00665422457096415
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,4,-0.012157203900193026,0.012157203900193026
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,5,0.006707125402138159,0.006707125402138159
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,6,0.006455107814367502,0.006455107814367502
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,7,-0.006876883962540361,0.006876883962540361
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,8,0.007518522954191952,0.007518522954191952
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,9,0.0005437928221953944,0.0005437928221953944
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,10,-0.006682032069211568,0.006682032069211568
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,11,-0.003503176851368115,0.003503176851368115
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,12,-0.013546798657067392,0.013546798657067392
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,13,0.003806191108689245,0.003806191108689245
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,14,0.009297857268966266,0.009297857268966266
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,3,15,-0.005152102158580449,0.005152102158580449
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,5,-0.008089700400314892,0.008089700400314892
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,6,0.0012626815903728015,0.0012626815903728015
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,7,-0.006768338853488582,0.006768338853488582
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,8,-0.004152176126269089,0.004152176126269089
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,9,-0.0020640959502321097,0.0020640959502321097
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,10,0.0013211533740700866,0.0013211533740700866
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,11,0.005983505840479258,0.005983505840479258
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,12,0.006757460767216702,0.006757460767216702
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,13,-0.010624431304002927,0.010624431304002927
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,14,0.010376786910344063,0.010376786910344063
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,4,15,0.006605521589365876,0.006605521589365876
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,6,0.0020023132210543284,0.0020023132210543284
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,7,0.004085936840845132,0.004085936840845132
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,8,-0.0008920032828644445,0.0008920032828644445
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,9,-0.011735443590815006,0.011735443590815006
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,10,-0.0007359561814288947,0.0007359561814288947
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,11,-0.010732411921961551,0.010732411921961551
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,12,-0.02419729913002773,0.02419729913002773
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,13,-0.01142061661233718,0.01142061661233718
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,14,-0.010591582719002275,0.010591582719002275
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,5,15,0.0014038921435317968,0.0014038921435317968
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,7,-0.011792996939020218,0.011792996939020218
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,8,-0.001326572652968125,0.001326572652968125
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,9,-0.002177693356332977,0.002177693356332977
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,10,0.007895012982989507,0.007895012982989507
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,11,0.0033813307851198043,0.0033813307851198043
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,12,-0.004587504452068808,0.004587504452068808
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,13,0.01680609735485883,0.01680609735485883
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,14,0.015029436500614701,0.015029436500614701
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,6,15,0.0058244129108712675,0.0058244129108712675
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,8,0.002488168001443682,0.002488168001443682
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,9,-0.0001457220922492729,0.0001457220922492729
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,10,-0.011291012746963928,0.011291012746963928
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,11,0.0007807977946773769,0.0007807977946773769
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,12,0.020023739350936348,0.020023739350936348
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,13,0.013747523201537245,0.013747523201537245
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,14,-0.007456171256350164,0.007456171256350164
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,7,15,0.01080022389658705,0.01080022389658705
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,9,0.006662390693617292,0.006662390693617292
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,10,0.006284081525530521,0.006284081525530521
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,11,-0.006093080624195657,0.006093080624195657
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,12,0.0002416536400970826,0.0002416536400970826
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,13,0.0004589242543150236,0.0004589242543150236
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,14,0.02025261950873314,0.02025261950873314
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,8,15,0.007506407456946416,0.007506407456946416
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,9,10,-0.005964215399717945,0.005964215399717945
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,9,11,-0.001435363526183948,0.001435363526183948
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,9,12,0.007051532583848,0.007051532583848
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,9,13,0.004506555190237126,0.004506555190237126
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,9,14,-0.010709690219882844,0.010709690219882844
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,9,15,0.008447339596629456,0.008447339596629456
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,10,11,0.00478025032375842,0.00478025032375842
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,10,12,0.006942175962156249,0.006942175962156249
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,10,13,0.004322758907183098,0.004322758907183098
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,10,14,-0.001548451130978396,0.001548451130978396
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,10,15,0.026293963759887892,0.026293963759887892
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,11,12,0.003885849019870877,0.003885849019870877
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,11,13,0.0041513301485332004,0.0041513301485332004
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,11,14,-0.017520803966050495,0.017520803966050495
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,11,15,-0.009174644901365232,0.009174644901365232
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,12,13,0.00268112314524707,0.00268112314524707
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,12,14,-0.004021288446288398,0.004021288446288398
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,12,15,-0.0133794444949423,0.0133794444949423
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,13,14,-0.004148775835811345,0.004148775835811345
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,13,15,0.01049149320705566,0.01049149320705566
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,14,15,0.007227760118523276,0.007227760118523276
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,1,-0.005589631787020398,0.005589631787020398
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,2,0.006372308812711301,0.006372308812711301
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,3,0.009627590811276843,0.009627590811276843
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,4,-0.006707157664595282,0.006707157664595282
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,5,-0.008773414576670295,0.008773414576670295
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,6,-0.0028979875428660016,0.0028979875428660016
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,7,1.823861764329226e-06,1.823861764329226e-06
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,8,0.005129028557749084,0.005129028557749084
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,9,-0.004991953032597497,0.004991953032597497
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,10,-0.0015415533966147124,0.0015415533966147124
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,11,-0.009237302206242257,0.009237302206242257
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,12,0.017100297067131426,0.017100297067131426
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,13,0.016952817959742045,0.016952817959742045
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,14,0.000496291856026047,0.000496291856026047
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0,15,0.003346396744617983,0.003346396744617983
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,2,0.0017804230905639688,0.0017804230905639688
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,3,-0.01244494458803587,0.01244494458803587
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,4,0.020444844415203098,0.020444844415203098
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,5,0.020149928526016474,0.020149928526016474
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,6,0.0028460374622951527,0.0028460374622951527
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,7,-0.000968906532248952,0.000968906532248952
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,8,-0.006087212360943335,0.006087212360943335
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,9,-0.006337534703803959,0.006337534703803959
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,10,-0.003602824286657843,0.003602824286657843
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,11,-0.030208454790911096,0.030208454790911096
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,12,-0.001974801699614394,0.001974801699614394
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,13,-0.00849204847824647,0.00849204847824647
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,14,0.011295607046229313,0.011295607046229313
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,1,15,0.014354826494545623,0.014354826494545623
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,3,-0.008748081948212907,0.008748081948212907
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,4,0.018567991335820926,0.018567991335820926
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,5,-0.016271948769310228,0.016271948769310228
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,6,0.008716553781868164,0.008716553781868164
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,7,-0.002124768882047323,0.002124768882047323
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,8,-0.0033045713035439813,0.0033045713035439813
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,9,0.0056394996869102015,0.0056394996869102015
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,10,-0.005745542261350451,0.005745542261350451
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,11,0.012821331473609756,0.012821331473609756
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,12,-0.0033438456877215475,0.0033438456877215475
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,13,-0.004489883097094873,0.004489883097094873
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,14,-0.007984510144850198,0.007984510144850198
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,2,15,0.0009918982927273883,0.0009918982927273883
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,4,0.006039796986317468,0.006039796986317468
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,5,-0.0002844964765475117,0.0002844964765475117
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,6,-0.005837177063757786,0.005837177063757786
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,7,0.0012067756803998719,0.0012067756803998719
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,8,-0.02270080126654781,0.02270080126654781
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,9,-0.0077709761080743045,0.0077709761080743045
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,10,0.0009830099214339434,0.0009830099214339434
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,11,0.0005680255974103675,0.0005680255974103675
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,12,0.008549608742172345,0.008549608742172345
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,13,0.0027214962202449155,0.0027214962202449155
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,14,0.002946727422176153,0.002946727422176153
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,3,15,0.01649678698439433,0.01649678698439433
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,5,-0.009892982365177362,0.009892982365177362
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,6,0.010293977988767975,0.010293977988767975
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,7,-0.00772528833696146,0.00772528833696146
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,8,-0.013095533713298795,0.013095533713298795
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,9,-0.002754175664823349,0.002754175664823349
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,10,-0.025865548882878474,0.025865548882878474
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,11,0.003579911315734806,0.003579911315734806
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,12,0.0026164269112726878,0.0026164269112726878
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,13,-0.0033697328625281802,0.0033697328625281802
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,14,0.005406248182578546,0.005406248182578546
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,4,15,-0.004643837969315556,0.004643837969315556
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,6,0.001863931699530291,0.001863931699530291
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,7,0.012030452528095767,0.012030452528095767
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,8,0.005522511816303083,0.005522511816303083
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,9,0.019310841607921726,0.019310841607921726
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,10,-0.0027761028069328664,0.0027761028069328664
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,11,0.008345968533451735,0.008345968533451735
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,12,0.0070870805923320835,0.0070870805923320835
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,13,0.003924493522644299,0.003924493522644299
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,14,-0.011775389013586067,0.011775389013586067
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,5,15,0.006304609472247647,0.006304609472247647
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,7,0.0021721444163986933,0.0021721444163986933
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,8,0.0020674419783602445,0.0020674419783602445
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,9,0.008024543052538585,0.008024543052538585
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,10,-0.018350644448903386,0.018350644448903386
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,11,0.015315541561034832,0.015315541561034832
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,12,-0.019015496716571777,0.019015496716571777
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,13,-0.009078090426512,0.009078090426512
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,14,0.007390772553997544,0.007390772553997544
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,6,15,-0.013396454391470575,0.013396454391470575
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,8,0.014510364568987983,0.014510364568987983
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,9,-0.0018082723501444701,0.0018082723501444701
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,10,-0.01160684842625396,0.01160684842625396
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,11,-0.004042127089091627,0.004042127089091627
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,12,0.00365328164379769,0.00365328164379769
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,13,-0.019204505956545968,0.019204505956545968
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,14,-0.019890683987784888,0.019890683987784888
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,7,15,-0.004292482240333598,0.004292482240333598
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,9,-0.00386373912582965,0.00386373912582965
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,10,-0.0013690660895221704,0.0013690660895221704
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,11,0.0032642466210947886,0.0032642466210947886
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,12,-0.0036368080551509928,0.0036368080551509928
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,13,0.014718255802797406,0.014718255802797406
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,14,0.007291911339415022,0.007291911339415022
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,8,15,-0.01879073944869552,0.01879073944869552
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,9,10,-0.009199840391138591,0.009199840391138591
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,9,11,-0.006428533601839295,0.006428533601839295
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,9,12,0.0005917038850202374,0.0005917038850202374
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,9,13,0.013804190072224982,0.013804190072224982
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,9,14,0.009013344713012291,0.009013344713012291
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,9,15,-0.005527075310958065,0.005527075310958065
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,10,11,0.0012098761676463032,0.0012098761676463032
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,10,12,-0.02166407160229063,0.02166407160229063
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,10,13,-0.000949433869149366,0.000949433869149366
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,10,14,-0.006347584254116333,0.006347584254116333
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,10,15,0.0008612053942549824,0.0008612053942549824
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,11,12,0.005032882442595398,0.005032882442595398
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,11,13,-0.013767064461535075,0.013767064461535075
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,11,14,-0.008810106278829504,0.008810106278829504
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,11,15,0.013613832232245248,0.013613832232245248
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,12,13,-0.008501413390891983,0.008501413390891983
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,12,14,-0.006414277779099475,0.006414277779099475
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,12,15,0.00900575083591087,0.00900575083591087
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,13,14,-0.011258312939924691,0.011258312939924691
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,13,15,-0.011809106809866418,0.011809106809866418
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,14,15,0.007157361832352283,0.007157361832352283
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,1,-0.007071297434739063,0.007071297434739063
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,2,0.0016503583265275608,0.0016503583265275608
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,3,-0.001012106089769146,0.001012106089769146
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,4,-0.002744591912393507,0.002744591912393507
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,5,0.015450117432787736,0.015450117432787736
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,6,-0.004000214977218258,0.004000214977218258
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,7,0.010796956729419606,0.010796956729419606
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,8,0.0019399936756391877,0.0019399936756391877
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,9,-0.0010912833964935318,0.0010912833964935318
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,10,0.014799465772219418,0.014799465772219418
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,11,0.009596389099349364,0.009596389099349364
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,12,0.0038206315555093123,0.0038206315555093123
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,13,-0.009016477024482682,0.009016477024482682
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,14,-0.0067324299427844675,0.0067324299427844675
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0,15,0.017113683188339696,0.017113683188339696
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,2,0.010377395566277967,0.010377395566277967
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,3,-0.004102202512375657,0.004102202512375657
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,4,-0.0007305778277115163,0.0007305778277115163
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,5,0.001499344082796085,0.001499344082796085
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,6,-0.0009420491633294316,0.0009420491633294316
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,7,0.009194722135156081,0.009194722135156081
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,8,0.0007914001177110327,0.0007914001177110327
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,9,-0.006431374972004424,0.006431374972004424
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,10,-0.004354434199766854,0.004354434199766854
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,11,-0.009943958025029483,0.009943958025029483
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,12,-0.00420703417544184,0.00420703417544184
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,13,0.00950200957850986,0.00950200957850986
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,14,0.0045769113327220196,0.0045769113327220196
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,1,15,0.009522366096722317,0.009522366096722317
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,3,0.0037913839205271833,0.0037913839205271833
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,4,0.0013584260131599604,0.0013584260131599604
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,5,-0.009751742043777923,0.009751742043777923
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,6,0.0031797223696084917,0.0031797223696084917
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,7,-0.011584552761724204,0.011584552761724204
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,8,0.0001471114800438741,0.0001471114800438741
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,9,-0.0016352510684265217,0.0016352510684265217
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,10,0.015035586018124415,0.015035586018124415
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,11,-0.005575270225231406,0.005575270225231406
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,12,-0.0003755859492305284,0.0003755859492305284
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,13,0.0015488571844347859,0.0015488571844347859
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,14,0.008444876391271647,0.008444876391271647
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,2,15,0.009583251002084764,0.009583251002084764
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,4,0.007044103947769471,0.007044103947769471
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,5,-0.010857904572186348,0.010857904572186348
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,6,-0.007302130649611356,0.007302130649611356
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,7,0.005065741053949864,0.005065741053949864
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,8,0.0030841283862351903,0.0030841283862351903
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,9,-0.007777513885075176,0.007777513885075176
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,10,0.008432190085133217,0.008432190085133217
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,11,0.006226856444496122,0.006226856444496122
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,12,-0.00019322551452671694,0.00019322551452671694
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,13,0.0067477256906493,0.0067477256906493
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,14,0.010902941585480263,0.010902941585480263
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,3,15,0.010448344132599305,0.010448344132599305
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,5,0.005194984934623403,0.005194984934623403
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,6,0.006486410577827293,0.006486410577827293
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,7,0.005199910610268264,0.005199910610268264
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,8,-0.0016901529025688485,0.0016901529025688485
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,9,0.004690682886831604,0.004690682886831604
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,10,-0.000964831142544857,0.000964831142544857
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,11,0.0003057722112628828,0.0003057722112628828
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,12,0.008865931083856126,0.008865931083856126
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,13,0.0023725716249848577,0.0023725716249848577
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,14,0.030864970178707114,0.030864970178707114
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,4,15,-0.009774380625738868,0.009774380625738868
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,6,-0.004858065786884553,0.004858065786884553
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,7,0.008430423259247272,0.008430423259247272
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,8,-0.006581892786403192,0.006581892786403192
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,9,-0.004587948633008054,0.004587948633008054
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,10,0.00219571871394528,0.00219571871394528
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,11,-0.00583094261982493,0.00583094261982493
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,12,0.004781252625165017,0.004781252625165017
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,13,0.007272125487666866,0.007272125487666866
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,14,-0.0005927745877064703,0.0005927745877064703
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,5,15,0.02066899640771687,0.02066899640771687
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,7,-0.01261262611937779,0.01261262611937779
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,8,-0.003383554405885039,0.003383554405885039
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,9,0.003773415440112221,0.003773415440112221
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,10,0.005596499902905119,0.005596499902905119
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,11,0.005158638895693864,0.005158638895693864
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,12,-0.004952750860198887,0.004952750860198887
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,13,-0.0020726537364037117,0.0020726537364037117
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,14,-0.003447830479794027,0.003447830479794027
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,6,15,-0.0007554570225707912,0.0007554570225707912
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,8,-0.007949066517871974,0.007949066517871974
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,9,-0.00884731922170106,0.00884731922170106
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,10,0.023226445820649252,0.023226445820649252
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,11,-0.012204468341789265,0.012204468341789265
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,12,0.010570015519094986,0.010570015519094986
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,13,-0.009650452754350603,0.009650452754350603
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,14,0.01234444051861972,0.01234444051861972
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,7,15,0.0051022623712998726,0.0051022623712998726
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,9,0.003770933267018229,0.003770933267018229
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,10,-0.0036727824731558724,0.0036727824731558724
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,11,-0.01027988454665614,0.01027988454665614
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,12,-0.010196834736295174,0.010196834736295174
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,13,-0.008778107639997389,0.008778107639997389
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,14,0.0021161963397094957,0.0021161963397094957
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,8,15,-0.006056056495454172,0.006056056495454172
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,9,10,-0.013958189210023338,0.013958189210023338
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,9,11,-0.0007399579819178338,0.0007399579819178338
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,9,12,0.0016931342565321963,0.0016931342565321963
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,9,13,0.009190693974709698,0.009190693974709698
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,9,14,0.0074659418971827676,0.0074659418971827676
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,9,15,-0.010851644463548867,0.010851644463548867
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,10,11,-0.007879813752169493,0.007879813752169493
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,10,12,-0.010057157303131453,0.010057157303131453
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,10,13,-0.0075019154232808145,0.0075019154232808145
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,10,14,0.00911838408106668,0.00911838408106668
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,10,15,-0.009948694603956015,0.009948694603956015
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,11,12,-0.01009075488667857,0.01009075488667857
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,11,13,0.014183434775432931,0.014183434775432931
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,11,14,0.022048359295542417,0.022048359295542417
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,11,15,0.002906492053919369,0.002906492053919369
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,12,13,-0.006331466396359586,0.006331466396359586
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,12,14,0.003704298605375134,0.003704298605375134
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,12,15,0.007121189101965047,0.007121189101965047
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,13,14,0.00020454911911690045,0.00020454911911690045
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,13,15,0.005309090241748352,0.005309090241748352
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,14,15,0.01315072859344653,0.01315072859344653
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,1,0.012489982967609612,0.012489982967609612
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,2,-0.008440506319534764,0.008440506319534764
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,3,0.012255785868883583,0.012255785868883583
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,4,0.0030873265609326957,0.0030873265609326957
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,5,-0.0008316101859881976,0.0008316101859881976
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,6,-0.0018227490149515648,0.0018227490149515648
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,7,-0.010053818893978123,0.010053818893978123
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,8,0.005059689647534187,0.005059689647534187
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,9,-0.007180836971782767,0.007180836971782767
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,10,0.014205488966453477,0.014205488966453477
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,11,0.002346140488154582,0.002346140488154582
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,12,-0.020964006637072267,0.020964006637072267
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,13,0.002350903902975275,0.002350903902975275
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,14,-0.005848847404063123,0.005848847404063123
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0,15,-0.020607855800721706,0.020607855800721706
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,2,-0.007318489101631896,0.007318489101631896
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,3,0.0022723514503843038,0.0022723514503843038
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,4,0.020222203182636934,0.020222203182636934
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,5,-0.005067861619376807,0.005067861619376807
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,6,-7.652622794318564e-07,7.652622794318564e-07
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,7,-0.009552923786629912,0.009552923786629912
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,8,-0.00047343535635972284,0.00047343535635972284
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,9,0.004667575527176126,0.004667575527176126
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,10,0.010540604999212218,0.010540604999212218
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,11,-0.005683150826113724,0.005683150826113724
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,12,-0.011573789663756322,0.011573789663756322
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,13,0.0021888694406838496,0.0021888694406838496
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,14,-0.0039163823547965345,0.0039163823547965345
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,1,15,0.002023131446531946,0.002023131446531946
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,3,-0.015108312193421,0.015108312193421
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,4,-0.008069902021314974,0.008069902021314974
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,5,-0.002033955042801071,0.002033955042801071
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,6,0.0031097383505899997,0.0031097383505899997
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,7,0.006060625962048017,0.006060625962048017
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,8,0.01227408714674967,0.01227408714674967
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,9,-0.013521499390364244,0.013521499390364244
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,10,0.004827522032871087,0.004827522032871087
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,11,0.008014702293359974,0.008014702293359974
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,12,0.009573851179872849,0.009573851179872849
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,13,0.0006343781717624109,0.0006343781717624109
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,14,0.009205717539719271,0.009205717539719271
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,2,15,-0.0017034208855713148,0.0017034208855713148
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,4,-0.00650717059340755,0.00650717059340755
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,5,-0.008143127515683028,0.008143127515683028
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,6,0.009352855232268762,0.009352855232268762
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,7,-0.01347330397350415,0.01347330397350415
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,8,0.0006716588095660965,0.0006716588095660965
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,9,0.0001405977895604214,0.0001405977895604214
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,10,-1.741248539091851e-05,1.741248539091851e-05
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,11,0.0002307541204367797,0.0002307541204367797
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,12,-0.010472599052436063,0.010472599052436063
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,13,-0.004445702413137791,0.004445702413137791
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,14,-0.011243030284661183,0.011243030284661183
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,3,15,-0.003013691732565502,0.003013691732565502
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,5,0.009722975909037469,0.009722975909037469
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,6,0.00512916277856657,0.00512916277856657
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,7,-0.010780194548603088,0.010780194548603088
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,8,0.003208750101955538,0.003208750101955538
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,9,0.0037274705977979046,0.0037274705977979046
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,10,0.00020159504180588576,0.00020159504180588576
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,11,-0.024226702264711995,0.024226702264711995
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,12,0.0024341943027960957,0.0024341943027960957
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,13,0.02045851145433037,0.02045851145433037
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,14,-0.0029091353253831247,0.0029091353253831247
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,4,15,0.00042766246146891835,0.00042766246146891835
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,6,0.0008744801806317198,0.0008744801806317198
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,7,-0.008305911308121184,0.008305911308121184
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,8,0.011497829190869098,0.011497829190869098
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,9,0.002411275008435026,0.002411275008435026
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,10,-0.01353497915238752,0.01353497915238752
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,11,0.0053020966272968135,0.0053020966272968135
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,12,0.013199505547818097,0.013199505547818097
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,13,-0.03251813183412757,0.03251813183412757
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,14,0.011529471671574528,0.011529471671574528
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,5,15,-0.014406127568818906,0.014406127568818906
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,7,0.001375362629348149,0.001375362629348149
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,8,-0.0005493648049564508,0.0005493648049564508
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,9,0.0008098359280453517,0.0008098359280453517
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,10,0.003906104375440283,0.003906104375440283
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,11,0.006533447650627912,0.006533447650627912
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,12,0.006398004140788117,0.006398004140788117
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,13,-0.010380604367345378,0.010380604367345378
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,14,-0.004078654536050312,0.004078654536050312
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,6,15,-0.008256453341920345,0.008256453341920345
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,8,0.0026871673940720374,0.0026871673940720374
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,9,-0.010091144254967687,0.010091144254967687
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,10,0.004318904667637063,0.004318904667637063
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,11,0.008131763998626102,0.008131763998626102
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,12,0.01966885265288494,0.01966885265288494
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,13,0.011389969689170871,0.011389969689170871
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,14,0.018001045757407012,0.018001045757407012
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,7,15,0.009906170197084235,0.009906170197084235
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,9,0.0010273872668514314,0.0010273872668514314
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,10,0.0020913696081818344,0.0020913696081818344
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,11,-0.010812220545793963,0.010812220545793963
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,12,0.007556588691851068,0.007556588691851068
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,13,0.01510525448562004,0.01510525448562004
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,14,-0.0036631724666685342,0.0036631724666685342
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,8,15,0.005527936725115563,0.005527936725115563
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,9,10,0.0012419492892947867,0.0012419492892947867
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,9,11,0.007912400783461945,0.007912400783461945
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,9,12,-0.013154940539509366,0.013154940539509366
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,9,13,-0.007921572684103526,0.007921572684103526
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,9,14,-0.003322616197571789,0.003322616197571789
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,9,15,-0.004045238533317613,0.004045238533317613
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,10,11,-0.011706850310775166,0.011706850310775166
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,10,12,0.003717000599040761,0.003717000599040761
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,10,13,-0.012139918083627558,0.012139918083627558
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,10,14,0.0015364035765828774,0.0015364035765828774
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,10,15,0.011178110017561646,0.011178110017561646
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,11,12,0.0030436581963370966,0.0030436581963370966
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,11,13,0.0032425209251067738,0.0032425209251067738
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,11,14,-0.0028340710663891213,0.0028340710663891213
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,11,15,0.009209214350096983,0.009209214350096983
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,12,13,-0.013965035988201098,0.013965035988201098
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,12,14,0.00653620198969027,0.00653620198969027
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,12,15,0.0104658892163821,0.0104658892163821
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,13,14,0.0034704445808277297,0.0034704445808277297
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,13,15,0.0009251037581523452,0.0009251037581523452
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,14,15,-0.0014308845156100877,0.0014308845156100877
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,1,-0.013792163782918922,0.013792163782918922
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,2,0.005390637538422466,0.005390637538422466
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,3,0.00302890155621785,0.00302890155621785
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,4,-0.013541495846049072,0.013541495846049072
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,5,0.0024646206147480366,0.0024646206147480366
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,6,-0.005857939499842152,0.005857939499842152
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,7,0.006997413258060493,0.006997413258060493
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,8,-0.0009908677048053216,0.0009908677048053216
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,9,-0.0006253198392714558,0.0006253198392714558
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,10,0.00690829208788923,0.00690829208788923
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,11,0.010466564461026898,0.010466564461026898
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,12,-0.018926907559437788,0.018926907559437788
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,13,-0.015258617685751515,0.015258617685751515
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,14,-0.015479438568942488,0.015479438568942488
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0,15,-0.004828010209070198,0.004828010209070198
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,2,0.016384966186396083,0.016384966186396083
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,3,-0.001582830939739155,0.001582830939739155
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,4,0.013274541782893893,0.013274541782893893
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,5,0.0072464272137354015,0.0072464272137354015
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,6,-0.0013644838256490137,0.0013644838256490137
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,7,-0.02256273127271779,0.02256273127271779
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,8,-0.0010053536925353484,0.0010053536925353484
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,9,0.002732467257797077,0.002732467257797077
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,10,-0.0033618709307575655,0.0033618709307575655
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,11,-0.003427832982738144,0.003427832982738144
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,12,-0.009105356875061093,0.009105356875061093
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,13,0.009982373409828044,0.009982373409828044
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,14,-0.01695052277647487,0.01695052277647487
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,1,15,-0.008658707988406724,0.008658707988406724
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,3,0.005810175182880044,0.005810175182880044
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,4,-0.0010537793256364585,0.0010537793256364585
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,5,0.0055431987155319185,0.0055431987155319185
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,6,0.0028453291155225535,0.0028453291155225535
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,7,0.010844969632799802,0.010844969632799802
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,8,-0.005806643566501019,0.005806643566501019
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,9,0.02676668459212234,0.02676668459212234
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,10,-0.000428072190123671,0.000428072190123671
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,11,-0.007137597287282135,0.007137597287282135
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,12,0.003944648127952815,0.003944648127952815
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,13,-0.008563167509247972,0.008563167509247972
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,14,0.004703838343224016,0.004703838343224016
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,2,15,0.004183074130525314,0.004183074130525314
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,4,-0.012375583479601599,0.012375583479601599
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,5,-0.0076513234763956545,0.0076513234763956545
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,6,0.007573248886306995,0.007573248886306995
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,7,-0.004320156661980824,0.004320156661980824
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,8,0.0034483361803093896,0.0034483361803093896
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,9,0.0026225780296498195,0.0026225780296498195
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,10,0.0034272245492749523,0.0034272245492749523
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,11,-0.005621989204738428,0.005621989204738428
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,12,-0.009370401885322205,0.009370401885322205
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,13,0.006014197333086589,0.006014197333086589
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,14,0.013732360374039332,0.013732360374039332
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,3,15,-0.01020098010595511,0.01020098010595511
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,5,0.0018917632496487102,0.0018917632496487102
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,6,0.01648081554584525,0.01648081554584525
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,7,-0.006782345656739478,0.006782345656739478
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,8,-0.005247673877006993,0.005247673877006993
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,9,-0.0032145606234757172,0.0032145606234757172
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,10,0.00045355284017960153,0.00045355284017960153
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,11,-0.015936971165573553,0.015936971165573553
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,12,-0.012365431475110069,0.012365431475110069
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,13,-0.002179627518131437,0.002179627518131437
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,14,0.002482200251331567,0.002482200251331567
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,4,15,-0.006624728548087901,0.006624728548087901
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,6,0.00902229123038572,0.00902229123038572
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,7,-0.018582719972589746,0.018582719972589746
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,8,0.010999853669697239,0.010999853669697239
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,9,0.014149037415925906,0.014149037415925906
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,10,-0.005292932504533974,0.005292932504533974
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,11,0.009204996861737468,0.009204996861737468
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,12,-0.006494641300871089,0.006494641300871089
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,13,0.004177630942289139,0.004177630942289139
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,14,0.010483781999132278,0.010483781999132278
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,5,15,0.018882105414465274,0.018882105414465274
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,7,-0.010068758995352338,0.010068758995352338
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,8,-0.005696033781500335,0.005696033781500335
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,9,-0.015476006575295504,0.015476006575295504
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,10,0.0031908804358065394,0.0031908804358065394
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,11,0.0007742598929277022,0.0007742598929277022
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,12,0.005492988540659088,0.005492988540659088
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,13,0.009114279113018979,0.009114279113018979
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,14,0.015868867405645685,0.015868867405645685
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,6,15,-0.008632862140462735,0.008632862140462735
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,8,0.010840409307389831,0.010840409307389831
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,9,-0.01562608196960096,0.01562608196960096
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,10,0.011609361519558227,0.011609361519558227
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,11,0.0028448572145453816,0.0028448572145453816
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,12,0.0031095665953889506,0.0031095665953889506
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,13,-0.006866646442509663,0.006866646442509663
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,14,-0.00786349272333512,0.00786349272333512
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,7,15,0.016082596968827575,0.016082596968827575
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,9,0.0006780242629624143,0.0006780242629624143
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,10,0.000248822106418497,0.000248822106418497
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,11,0.0010656356592934088,0.0010656356592934088
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,12,-0.02067238719041989,0.02067238719041989
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,13,0.009287459823867698,0.009287459823867698
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,14,0.003130881962674726,0.003130881962674726
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,8,15,-0.014770601851372455,0.014770601851372455
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,9,10,0.010815232286256403,0.010815232286256403
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,9,11,0.009707040802486728,0.009707040802486728
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,9,12,0.020059257942517898,0.020059257942517898
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,9,13,0.0009314116756142459,0.0009314116756142459
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,9,14,-0.004771589909427264,0.004771589909427264
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,9,15,-0.011226637263104909,0.011226637263104909
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,10,11,-0.011488576552354796,0.011488576552354796
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,10,12,0.004297718123356849,0.004297718123356849
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,10,13,-0.00408095252334166,0.00408095252334166
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,10,14,-0.012188020112780853,0.012188020112780853
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,10,15,0.014748142044896415,0.014748142044896415
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,11,12,-0.008399974283671178,0.008399974283671178
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,11,13,0.001186080142555581,0.001186080142555581
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,11,14,0.00332355340955847,0.00332355340955847
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,11,15,-0.016030368539409638,0.016030368539409638
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,12,13,0.0015777684074396307,0.0015777684074396307
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,12,14,-0.018665398417848818,0.018665398417848818
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,12,15,-0.007980692767192711,0.007980692767192711
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,13,14,-0.0026236520903927052,0.0026236520903927052
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,13,15,0.017276500438215762,0.017276500438215762
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,14,15,0.01715559373506046,0.01715559373506046
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,1,-0.009718218722162077,0.009718218722162077
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,2,-0.010012005505462863,0.010012005505462863
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,3,-0.011502436714331475,0.011502436714331475
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,4,-0.007454428209363028,0.007454428209363028
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,5,0.002317977437494887,0.002317977437494887
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,6,0.004506389111848405,0.004506389111848405
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,7,-0.0001185500930396742,0.0001185500930396742
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,8,0.0058629593868255725,0.0058629593868255725
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,9,-0.0015942807363572412,0.0015942807363572412
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,10,0.012086435534662496,0.012086435534662496
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,11,0.01563178257199524,0.01563178257199524
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,12,0.0026017808467281183,0.0026017808467281183
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,13,0.013137028938932318,0.013137028938932318
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,14,0.0006011508165871065,0.0006011508165871065
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0,15,0.0027090523728527114,0.0027090523728527114
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,2,-0.004636995574276064,0.004636995574276064
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,3,0.005199250947940577,0.005199250947940577
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,4,0.005201123001857285,0.005201123001857285
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,5,0.00923945599640731,0.00923945599640731
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,6,0.003339498486729176,0.003339498486729176
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,7,-0.005311654550715607,0.005311654550715607
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,8,-0.0009860831958474708,0.0009860831958474708
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,9,-0.02335052788535297,0.02335052788535297
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,10,-0.0048014042453220634,0.0048014042453220634
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,11,0.008236988206172345,0.008236988206172345
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,12,0.0050986361260985545,0.0050986361260985545
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,13,-0.0012148728588262116,0.0012148728588262116
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,14,0.0010604178188947785,0.0010604178188947785
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,1,15,-0.0016125269336819583,0.0016125269336819583
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,3,-0.004768436410889645,0.004768436410889645
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,4,0.00495787433133434,0.00495787433133434
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,5,-0.004049974840393883,0.004049974840393883
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,6,-0.019747048888004902,0.019747048888004902
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,7,0.00922406210380969,0.00922406210380969
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,8,0.0001616590625030855,0.0001616590625030855
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,9,0.009865699233298025,0.009865699233298025
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,10,-0.01585888689599864,0.01585888689599864
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,11,-0.028252997328769208,0.028252997328769208
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,12,-0.005359695099130434,0.005359695099130434
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,13,0.005375419623416076,0.005375419623416076
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,14,-0.006262196428442672,0.006262196428442672
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,2,15,-0.0063840680058061955,0.0063840680058061955
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,4,0.0028829818384000254,0.0028829818384000254
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,5,0.006611213773238538,0.006611213773238538
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,6,0.016572157311537338,0.016572157311537338
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,7,-0.009458872874346585,0.009458872874346585
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,8,-0.014191984468184846,0.014191984468184846
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,9,0.006168888663793781,0.006168888663793781
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,10,-0.007610782889511604,0.007610782889511604
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,11,0.013529215856098717,0.013529215856098717
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,12,-0.014846706028941743,0.014846706028941743
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,13,-0.0022544187737580574,0.0022544187737580574
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,14,0.019074351570974608,0.019074351570974608
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,3,15,0.01705220963597437,0.01705220963597437
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,5,-0.019199754772619686,0.019199754772619686
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,6,-0.00228757358283614,0.00228757358283614
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,7,0.004169452598867488,0.004169452598867488
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,8,-0.005272515374604932,0.005272515374604932
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,9,-0.00514903206572208,0.00514903206572208
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,10,-0.006840751214595375,0.006840751214595375
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,11,0.004296679703269786,0.004296679703269786
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,12,0.01693086979510024,0.01693086979510024
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,13,0.004607361373905522,0.004607361373905522
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,14,-0.010781872242657923,0.010781872242657923
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,4,15,-0.010185310846488153,0.010185310846488153
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,6,0.00904118080935112,0.00904118080935112
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,7,0.006134974577846712,0.006134974577846712
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,8,0.012880608258684978,0.012880608258684978
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,9,-0.005090584070151188,0.005090584070151188
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,10,0.009503252946404115,0.009503252946404115
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,11,-0.004455738459739298,0.004455738459739298
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,12,-0.0032968261994679587,0.0032968261994679587
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,13,-0.024694569537522047,0.024694569537522047
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,14,-0.012156229706150974,0.012156229706150974
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,5,15,-0.004067797924796079,0.004067797924796079
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,7,-0.007141457760762227,0.007141457760762227
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,8,0.0019198554217118892,0.0019198554217118892
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,9,-0.002025151112922611,0.002025151112922611
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,10,-0.0019299687713976686,0.0019299687713976686
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,11,-0.005514320593070832,0.005514320593070832
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,12,-0.00032124785976427825,0.00032124785976427825
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,13,-0.005742883119174811,0.005742883119174811
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,14,-0.0034856146433814325,0.0034856146433814325
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,6,15,-0.008664379151587928,0.008664379151587928
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,8,-0.009490901375935702,0.009490901375935702
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,9,-0.006383572948783735,0.006383572948783735
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,10,0.008827211665999712,0.008827211665999712
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,11,-0.004807425880252226,0.004807425880252226
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,12,0.010414376608939997,0.010414376608939997
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,13,-0.00701250697749713,0.00701250697749713
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,14,0.0019271186281382044,0.0019271186281382044
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,7,15,0.00684247522008146,0.00684247522008146
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,9,0.004996806917535226,0.004996806917535226
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,10,-0.006345747897298743,0.006345747897298743
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,11,0.0020756861323447734,0.0020756861323447734
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,12,0.0027236391693862107,0.0027236391693862107
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,13,-0.007521556354254176,0.007521556354254176
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,14,0.0007408299460119123,0.0007408299460119123
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,8,15,0.0056865809184496316,0.0056865809184496316
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,9,10,-0.009586404708885084,0.009586404708885084
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,9,11,0.0012451517792110445,0.0012451517792110445
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,9,12,-0.014086870383050409,0.014086870383050409
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,9,13,-0.006530003971607313,0.006530003971607313
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,9,14,0.018548549018180004,0.018548549018180004
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,9,15,-0.00540686625516755,0.00540686625516755
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,10,11,0.008392314621311002,0.008392314621311002
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,10,12,-0.014493788788570914,0.014493788788570914
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,10,13,-0.0014988071489351912,0.0014988071489351912
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,10,14,-0.0032118509250818644,0.0032118509250818644
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,10,15,0.009215575508691768,0.009215575508691768
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,11,12,0.003507636225404207,0.003507636225404207
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,11,13,-0.008276587816302193,0.008276587816302193
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,11,14,-0.006428068256306698,0.006428068256306698
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,11,15,0.003125862644301654,0.003125862644301654
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,12,13,0.003744733069605429,0.003744733069605429
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,12,14,0.007672456082793295,0.007672456082793295
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,12,15,-0.0014461438413883646,0.0014461438413883646
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,13,14,0.012388719472688894,0.012388719472688894
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,13,15,0.010848033412517201,0.010848033412517201
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,14,15,-0.005713473733456649,0.005713473733456649

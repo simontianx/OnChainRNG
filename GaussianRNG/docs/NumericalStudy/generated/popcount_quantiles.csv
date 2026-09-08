@@ -1,0 +1,43 @@
+experiment,label,probability,empirical_quantile,gaussian_quantile,difference
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.01,110.0,109.38921700767327,0.6107829923267332
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.05,115.0,114.84117098438823,0.1588290156117722
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.25,123.0,122.60408199843134,0.39591800156865986
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.5,128.0,128.0,0.0
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.75,133.0,133.39591800156865,-0.39591800156864565
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.95,141.0,141.1588290156118,-0.15882901561178642
+exp1_seq_uint,Experiment 1.1: Sequential uint256 values,0.99,147.0,146.61078299232673,0.38921700767326683
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.01,109.0,109.38921700767327,-0.38921700767326683
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.05,115.0,114.84117098438823,0.1588290156117722
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.25,123.0,122.60408199843134,0.39591800156865986
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.5,128.0,128.0,0.0
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.75,133.0,133.39591800156865,-0.39591800156864565
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.95,141.0,141.1588290156118,-0.15882901561178642
+exp1_shifted_uint,Experiment 1.2: Shifted uint256 values,0.99,147.0,146.61078299232673,0.38921700767326683
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.01,109.0,109.38921700767327,-0.38921700767326683
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.05,115.0,114.84117098438823,0.1588290156117722
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.25,123.0,122.60408199843134,0.39591800156865986
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.5,128.0,128.0,0.0
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.75,134.0,133.39591800156865,0.6040819984313544
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.95,141.0,141.1588290156118,-0.15882901561178642
+exp2_prefixed_seq,Experiment 2.1: Prefixed sequential strings,0.99,147.0,146.61078299232673,0.38921700767326683
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.01,110.0,109.38921700767327,0.6107829923267332
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.05,115.0,114.84117098438823,0.1588290156117722
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.25,123.0,122.60408199843134,0.39591800156865986
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.5,128.0,128.0,0.0
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.75,133.0,133.39591800156865,-0.39591800156864565
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.95,141.0,141.1588290156118,-0.15882901561178642
+exp2_prefixed_shifted,Experiment 2.2: Prefixed shifted strings,0.99,146.01000000000022,146.61078299232673,-0.6007829923265149
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.01,110.0,109.38921700767327,0.6107829923267332
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.05,115.0,114.84117098438823,0.1588290156117722
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.25,123.0,122.60408199843134,0.39591800156865986
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.5,128.0,128.0,0.0
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.75,133.0,133.39591800156865,-0.39591800156864565
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.95,141.0,141.1588290156118,-0.15882901561178642
+exp3_random_ascii_7,Experiment 3.1: Random ASCII strings up to length 7,0.99,147.0,146.61078299232673,0.38921700767326683
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.01,109.0,109.38921700767327,-0.38921700767326683
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.05,115.0,114.84117098438823,0.1588290156117722
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.25,122.0,122.60408199843134,-0.6040819984313401
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.5,128.0,128.0,0.0
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.75,133.0,133.39591800156865,-0.39591800156864565
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.95,141.0,141.1588290156118,-0.15882901561178642
+exp3_random_ascii_32,Experiment 3.2: Random ASCII strings up to length 32,0.99,146.0,146.61078299232673,-0.6107829923267332
