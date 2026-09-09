@@ -1,0 +1,5 @@
+Popcount of a VM-native hash yields a Gaussian draw with integer arithmetic only
+Lyapunov-CLT justification with explicit conditions for the (n/2, sqrt(n)/2) scaling
+Keccak-256 and SHA-256 match an iid fair-bit control on every diagnostic tested
+Tails match the exact binomial law through z=4 at 10^6 draws per target
+Full transform costs about 530 gas on the EVM with a constant-time SWAR popcount

@@ -25,36 +25,27 @@ Ninth Feature Capital\\
 
 \begin{abstract}
 Smart-contract applications can benefit from non-uniform randomness, but major
-blockchain virtual machines typically expose raw cryptographic primitives or
-uniform randomness interfaces rather than a lightweight Gaussian sampler. This
-paper presents a practical Gaussian sampler for smart-contract virtual machines
-built from the population count, equivalently the Hamming weight, of an
-$n$-bit VM-native output. The method is simple: obtain an $n$-bit hash or
-randomness value, count the $1$'s in the output, standardize that count, and
-represent the result as an integer-scaled Gaussian approximation suitable for
-deterministic VM arithmetic. Under an
-independent Bernoulli bit model with heterogeneous marginals, the bit count is
-Poisson-binomial and Lyapunov's central limit theorem implies asymptotic
-normality of the standardized count; a corollary gives the explicit condition
-under which the fixed normalization $(n/2,\sqrt{n}/2)$ used on-chain inherits
-that limit. The paper combines the probabilistic argument with empirical
-evaluation. It presents a detailed \texttt{keccak256} study at $n=256$ and a
-cross-VM expansion covering Keccak-256 and SHA-256 alongside an iid fair-bit
-control at $n=256$ and $n=512$ that also serves as a reference model for
-Sui native randomness. Across the tested settings the hash primitives are
-statistically indistinguishable from the control on every diagnostic: the
-summed bit bias shifts the standardized output by at most $0.02$ standard
-deviations, the ratio of the observed popcount variance to the
-independence-implied variance lies within $0.988$--$1.017$, the
-Kolmogorov--Smirnov distance to the exact binomial law is below $0.012$ at
-$10^{4}$ draws and below the $5\%$ critical value at $10^{6}$ draws, the
-two-sided tails agree with the binomial law through $z=4$, and
-repeated-primitive output sequences show no short-lag structure. Measured on
-the EVM, the full transform costs about $530$ gas per draw with a
-constant-time population count. The result is a lightweight Gaussianization
-layer for blockchain VMs, especially for ecosystems such as EVM and Solana
-that expose hash primitives but no native Gaussian sampling interface, and
-for Sui as a Gaussian layer over native uniform randomness.
+blockchain virtual machines expose raw cryptographic primitives or uniform
+randomness interfaces rather than a lightweight Gaussian sampler. This paper
+presents a Gaussian sampler for smart-contract virtual machines built from the
+population count, equivalently the Hamming weight, of an $n$-bit VM-native
+output: obtain the output, count its $1$'s, standardize that count, and emit an
+integer-scaled value suitable for deterministic VM arithmetic. Under an
+independent Bernoulli bit model with heterogeneous marginals the count is
+Poisson-binomial, Lyapunov's central limit theorem gives asymptotic normality,
+and a corollary supplies the explicit condition, on the sum of the bit biases,
+under which the fixed on-chain normalization $(n/2,\sqrt{n}/2)$ inherits that
+limit. Empirically, a \texttt{keccak256} study at $n=256$ and a cross-VM
+expansion covering SHA-256 and an iid fair-bit control at $n=256$ and $n=512$
+show the hash primitives to be indistinguishable from the control on every
+diagnostic tested. The summed bit bias shifts the standardized output by at
+most $0.02$ standard deviations, the ratio of observed to independence-implied
+popcount variance lies within $0.988$--$1.017$, and a $10^{6}$-draw study
+matches the exact binomial law through $z=4$. Measured on the EVM, the full
+transform costs about $530$ gas per draw with a constant-time population count.
+The result is a portable Gaussianization layer for blockchain VMs, for
+ecosystems such as EVM and Solana that expose hash primitives but no Gaussian
+interface, and for Sui as a Gaussian layer over native uniform randomness.
 \end{abstract}
 
 \noindent\textbf{Keywords:} smart contracts; on-chain randomness; Gaussian
